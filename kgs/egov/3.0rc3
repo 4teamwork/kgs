@@ -1,0 +1,121 @@
+# Known good set for egov version 3.0rc3
+# The latest version can be found at http://kgs.4teamwork.ch/release/egov/3.0rc3
+
+[versions]
+# http://kgs.4teamwork.ch/release/egov/3.0rc3
+Products.PloneFlashUpload = 1.3
+collective.jqhistory = 1.0.1
+eGov = 3.0a4
+egov.contactdirectory = 1.3.1
+egov.izugtheme = 1.0.9
+egov.orgunit = 1.0.4
+egov.tabbedview = 1.1
+ftw.book = 2.0.2
+ftw.contentmenu = 2.1
+ftw.favorite = 1.1.2
+ftw.meeting = 1.3
+ftw.pdfgenerator = 1.1
+ftw.permissionmanager = 1.3.1
+ftw.tabbedview = 3.1.4
+ftw.task = 2.3.3
+ftw.workspace = 1.4
+plonetheme.teamraum = 1.2
+
+# http://kgs.4teamwork.ch/release/egov/3.0rc2
+collective.js.jqsmartTruncation = 1.0a2
+collective.js.throttledebounce = 1.1
+collective.js.ui.multiselect = 1.0a3
+collective.portlet.collectionmultiview = 1.1.2
+ftw.blog = 1.1.7
+ftw.calendar = 1.15
+ftw.dashboard.portlets.postit = 1.3.2
+ftw.dashboard.portlets.recentlymodified = 1.2.4
+ftw.dictstorage = 1.0
+ftw.file = 1.4.9
+ftw.journal = 1.2.4
+ftw.poodle = 1.1
+ftw.sendmail = 0.4
+ftw.table = 1.7.6
+ftw.usermanagement = 1.5.3
+
+# http://kgs.4teamwork.ch/release/egov/3.0rc1
+Products.Maps = 2.1.1
+Products.PloneHotfix20110720 = 1.2
+Products.PloneHotfix20110928 = 1.1
+Products.Zope-Hotfix-20110622 = 1.0
+collective.js.jqueryui = 1.8.16.5
+collective.xmltestreport = 1.2
+egov.classification = 0.3.8
+egov.contentpage = 1.0.5
+egov.myaccount = 1.2.1
+egov.workflows = 1.0.7
+ftw.billboard = 1.1.4
+ftw.calendarwidget = 1.1.1
+ftw.dashboard.dragndrop = 1.1.5
+ftw.dashboard.portlets.favourites = 2.0.1
+ftw.mimetypes = 1.1.1
+ftw.notification.base = 1.1
+ftw.notification.email = 2.0
+ftw.participation = 1.0.1
+ftwbook.graphicblock = 2.0
+izug.ticketbox = 4.1.1
+plone.app.discussion = 2.1.1
+simplelayout.base = 3.0b1
+simplelayout.types.common = 3.0b1
+simplelayout.types.flowplayerblock = 1.0a2
+simplelayout.types.news = 1.0.1
+simplelayout.ui.base = 3.0b1
+simplelayout.ui.dragndrop = 3.0b1
+
+# http://kgs.4teamwork.ch/release/egov/2.5.1
+
+# http://kgs.4teamwork.ch/release/egov/2.5.0
+egov.policy.teamraum = 1.2.4.2
+
+# http://kgs.4teamwork.ch/release/egov/2.4.2
+BeautifulSoup = 3.2.0
+collective.flowplayer = 3.0rc1
+collective.logbook = 0.5
+egov.policy.base = 1.5.4
+egov.upgrade = 2.4.2c3
+lxml = 2.2.8
+plone.app.testing = 4.0
+plone.testing = 4.0.1
+python-ldap = 2.3.13
+
+# http://kgs.4teamwork.ch/release/egov/2.4.1
+egov.policy.portal = 1.0b3
+
+# http://kgs.4teamwork.ch/release/egov/2.4.0
+Products.AddRemoveWidget = 1.4.4
+Products.AutocompleteWidget = 1.3
+Products.DataGridField = 1.8b1
+Products.LDAPMultiPlugins = 1.12
+Products.LDAPUserFolder = 2.18
+Products.PloneFormGen = 1.6.0b4
+Products.PloneLDAP = 1.1
+Products.PythonField = 1.1.3
+Products.TALESField = 1.1.3
+Products.TemplateFields = 1.2.5
+collective.blueprint.usersandgroups = 0.1.1
+collective.js.jqtooltip = 1.0
+collective.mtrsetup = 1.0
+collective.recipe.filestorage = 0.6
+dataflake.cache = 1.2
+dataflake.ldapconnection = 1.2
+egov.jsonimport = 1.0a2
+egov.policy.my4egov = 1.0
+egov.policy.web = 1.0a1
+egov.procurement = 1.0b4
+egov.topics = 1.1c4
+ftw.keywordoverlay = 1.1
+ftw.portletview = 1.0a2
+ftw.quota = 1.0b2
+ftw.tagging = 1.0
+ftw.utilities = 0.6dev-r26088
+geopy = 0.94
+plone.principalsource = 1.0b1
+plonegov.pdflatex = 1.3
+z3c.form = 2.4.0
+z3c.json = 0.5.4
+z3c.widgets.flashupload = 1.0c1

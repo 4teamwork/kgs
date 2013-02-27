@@ -1,0 +1,13 @@
+# Known good set for ftw.publisher version 1.0c1
+# The latest version can be found at http://kgs.4teamwork.ch/release/ftw.publisher/1.0c1
+
+[versions]
+# http://kgs.4teamwork.ch/release/ftw.publisher/1.0c1
+ftw.publisher.controlling = 1.0c1
+ftw.publisher.core = 1.0c1
+ftw.publisher.sender = 1.0c1
+
+# http://kgs.4teamwork.ch/release/ftw.publisher/1.0b1
+ftw.publisher.receiver = 1.0b1
+plone.app.z3cform = 0.4.9
+z3c.form = 2.3.2

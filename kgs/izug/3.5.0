@@ -1,0 +1,85 @@
+# Known good set for izug version 3.5.0
+# The latest version can be found at http://kgs.4teamwork.ch/release/izug/3.5.0
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/ftw.publisher/1.5
+
+[versions]
+# http://kgs.4teamwork.ch/release/izug/3.5.0
+ftw.notification.email = 0.6
+ftw.publisher.sender = 1.5
+izug.arbeitsraum = 1.7
+izug.bibliothek = 1.8
+izug.block = 1.7
+izug.blog = 1.1
+izug.contentpage = 1.3
+izug.dashboard = 1.2
+izug.file = 1.6
+izug.management = 0.1.7
+izug.meeting = 1.1
+izug.news = 1.4
+izug.orgunit = 1.5
+izug.policy = 3.5.0
+izug.simplelayout = 1.2.1
+izug.subsites = 1.7
+izug.theme = 1.7
+izug.ticketbox = 1.3
+izug.topics = 1.6
+izug.webcontent = 1.4
+izug.webservice = 1.1
+izug.workflow = 1.6
+python-ldap = 2.3.13
+zug.kantonsratsvorlage = 1.2
+zug.shop = 1.9
+
+# http://kgs.4teamwork.ch/release/izug/3.4.1
+ftw.globalstatusmessage = 1.0
+izug.publisher = 1.2.5
+
+# http://kgs.4teamwork.ch/release/izug/3.4.0
+collective.mtrsetup = 1.2
+ftw.publisher.receiver = 1.3
+ftw.sendmail = 0.4
+izug.billboard = 1.0c2
+izug.mystuff = 0.3
+izug.poodle = 1.2
+izug.portlets = 1.1
+izug.task = 1.0c3
+plonegov.pdflatex = 1.5
+
+# http://kgs.4teamwork.ch/release/izug/3.3.1
+SQLAlchemy = 0.6.3
+archetypes.schemaextender = 2.0.3
+collective.saconnect = 1.3
+ftw.js.statusmessages = 1.0a2
+ftw.publisher.controlling = 1.1
+ftw.publisher.core = 1.1
+ftw.publisher.mailreport = 1.1
+ftw.publisher.monitor = 1.0
+ftw.wftools = 1.0a2
+izug.devtheme = 1.4
+izug.flowplayerblock = 1.1
+izug.testtheme = 1.4
+lovely.buildouthttp = 0.3.1
+suds = 0.4
+z3c.saconfig = 0.11
+zc.buildout = 1.5.2
+zc.recipe.egg = 1.3.0
+zope.sqlalchemy = 0.6
+
+# http://kgs.4teamwork.ch/release/izug/3.3.0
+
+# http://kgs.4teamwork.ch/release/izug/3.2.2
+izug.graphicblock = 1.3
+plonegov.recipe.pdflatex = 0.4
+
+# http://kgs.4teamwork.ch/release/izug/3.2.1
+ftw.notification.base = 1.1c1
+ftw.tabbedview = 1.0c1
+ftw.table = 1.1c1
+izug.base = 1.0c1
+izug.journal = 0.3
+izug.tagging = 1.0a2
+izug.utils = 1.0c1
+plone.browserlayer = 1.0.1
+plonegov.workflowmap = 0.3.5

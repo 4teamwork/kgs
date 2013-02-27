@@ -1,0 +1,46 @@
+# Known good set for egov version 1.0b2
+# The latest version can be found at http://kgs.4teamwork.ch/release/egov/1.0b2
+
+[versions]
+# http://kgs.4teamwork.ch/release/egov/1.0b2
+egov.policy = 1.0b4
+egov.theme = 1.0b5
+ftw.contentmenu = 1.0a6
+ftw.notification.email = 0.4
+
+# http://kgs.4teamwork.ch/release/egov/1.0b1
+egov.arbeitsraum = 1.0a1
+egov.blog = 1.0b1
+egov.mystuff = 1.0b1
+egov.participation = 1.0b1
+egov.procurement = 1.0b3
+egov.translations = 1.0b1
+egov.workflows = 1.0a3
+ftw.notification.base = 1.0
+ftw.tabbedview = 1.0a4
+izug.arbeitsraum = 1.0b1
+
+# http://kgs.4teamwork.ch/release/egov/1.0a4
+collective.mtrsetup = 1.0a2
+egov.base = 1.0a1
+ftw.calendarwidget = 1.0a1
+ftw.dashboard.dragndrop = 1.1.2
+ftw.quota = 1.0a3
+
+# http://kgs.4teamwork.ch/release/egov/1.0a3
+ftw.dashboard.portlets.favourites = 1.1
+ftw.dashboard.portlets.postit = 1.2
+ftw.dashboard.portlets.recentlymodified = 1.1.4
+iw.fss = 2.8.0rc1
+izug.base = 1.0a1
+izug.bibliothek = 1.0.3
+izug.blog = 0.7
+izug.flowplayerblock = 0.3
+izug.graphicblock = 1.1
+izug.journal = 0.3
+izug.orgunit = 0.2
+izug.simplelayout = 0.4
+izug.utils = 0.3
+izug.workflow = 0.7
+
+# http://kgs.4teamwork.ch/release/egov/1.0a2

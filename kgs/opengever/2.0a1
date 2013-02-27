@@ -1,0 +1,45 @@
+# Known good set for opengever version 2.0a1
+# The latest version can be found at http://kgs.4teamwork.ch/release/opengever/2.0a1
+
+[versions]
+# http://kgs.4teamwork.ch/release/opengever/2.0a1
+BeautifulSoup = 3.1.0.1
+MySQL-python = 1.2.3
+Pillow = 1.2
+Products.LDAPMultiPlugins = 1.12
+Products.LDAPUserFolder = 2.18
+Products.PloneLDAP = 1.1
+RelStorage = 1.5.0a1
+SQLAlchemy = 0.6.5
+collective.autopermission = 1.0b1
+collective.blueprint.usersandgroups = 0.1.1
+collective.elephantvocabulary = 0.2.2
+collective.genericsetup.ldap = 1.0dev-r82790
+collective.js.jqueryui = 1.8.5.1
+collective.mtrsetup = 1.0
+collective.recipe.i18noverrides = 1.0
+collective.transmogrifier = 1.2
+collective.vdexvocabulary = 0.1.1
+cx-Oracle = 5.0.4
+dataflake.cache = 1.2
+dataflake.ldapconnection = 1.2
+elementtreewriter = 1.1
+five.globalrequest = 1.0
+i18ndude = 3.2
+imsvdex = 1.0
+ipdb = 0.1
+ipython = 0.10.1
+plone.app.registry = 1.0b2
+plone.app.testing = 1.0a2
+plone.app.transmogrifier = 1.1
+plone.app.versioningbehavior = 1.0b1
+plone.principalsource = 1.0b1
+plone.registry = 1.0b2
+plone.testing = 1.0a2
+plonegov.recipe.pdflatex = 0.4
+python-ldap = 2.3.12
+transmogrify.sqlalchemy = 1.0.1
+vs.genericsetup.ldap = 1.1.1
+z3c.ptcompat = 0.5.6
+z3c.saconfig = 0.12
+zope.sqlalchemy = 0.6

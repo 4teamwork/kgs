@@ -1,0 +1,25 @@
+# Known good set for develop version freshen
+# The latest version can be found at http://kgs.4teamwork.ch/release/develop/freshen
+
+[versions]
+# http://kgs.4teamwork.ch/release/develop/freshen
+NoseGrowl = 0.4
+NoseXUnit = 0.3.3
+PyYAML = 3.09
+Pygments = 1.3.1
+argparse = 1.1
+freshen = 0.2
+ftw.recipe.freshen = 1.0a2
+kid = 0.9.6
+logilab-astng = 0.20.1
+logilab-common = 0.50.3
+mr.developer = 1.14
+nose = 0.11.4
+py-Growl = 0.0.7
+pylint = 0.21.1
+pyparsing = 1.5.3
+rudolf = 0.3
+selenium = 1.0.3
+simplejson = 2.1.1
+zc.buildout = 1.5.0b2
+zc.recipe.egg = 1.2.3b2

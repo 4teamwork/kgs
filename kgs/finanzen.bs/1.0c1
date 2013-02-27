@@ -1,0 +1,11 @@
+# Known good set for finanzen.bs version 1.0c1
+# The latest version can be found at http://kgs.4teamwork.ch/release/finanzen.bs/1.0c1
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/egov/1.1
+
+[versions]
+# http://kgs.4teamwork.ch/release/finanzen.bs/1.0c1
+finanzen.policy = 1.0c4
+finanzen.theme = 1.0c3
+lovely.buildouthttp = 0.3.1

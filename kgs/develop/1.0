@@ -1,0 +1,10 @@
+# Known good set for develop version 1.0
+# The latest version can be found at http://kgs.4teamwork.ch/release/develop/1.0
+
+[versions]
+# http://kgs.4teamwork.ch/release/develop/1.0
+collective.recipe.omelette = 0.9
+collective.testcaselayer = 1.3
+infrae.subversion = 1.4.5
+mr.developer = 1.7
+plone.reload = 1.3

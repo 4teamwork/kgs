@@ -1,0 +1,23 @@
+# Known good set for opengever-zug version 2.0c2
+# The latest version can be found at http://kgs.4teamwork.ch/release/opengever-zug/2.0c2
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/opengever/2.0c2
+
+[versions]
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0c2
+opengever.zugpolicy.bdarp = 2.0a7
+opengever.zugpolicy.bdbds = 2.0a4
+opengever.zugpolicy.dbkdbks = 2.0a6
+opengever.zugpolicy.diafj = 2.0a4
+opengever.zugpolicy.digva = 2.0a4
+opengever.zugpolicy.fdaio = 2.0a6
+opengever.zugpolicy.fdfds = 2.0a6
+opengever.zugpolicy.fdkfv = 2.0a3
+opengever.zugpolicy.gdgds = 2.0a5
+opengever.zugpolicy.gdgea = 2.0a6
+opengever.zugpolicy.sdsds = 2.0a5
+opengever.zugpolicy.skaarch = 2.0a8
+opengever.zugpolicy.skakr = 2.0a4
+opengever.zugpolicy.skarr = 2.0a4
+opengever.zugpolicy.vdvds = 2.0a5
