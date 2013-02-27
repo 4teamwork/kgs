@@ -58,13 +58,13 @@ def sanity_check_all():
     for root, _dirs, files in os.walk(kgs_dir_path):
         for each in files:
             filepath = os.path.join(root, each)
-            is_sane = _sanity_check(open(filepath, 'r'))
+            is_sane = is_sane and _sanity_check(open(filepath, 'r'))
     return is_sane
 
 
 if __name__ == "__main__":
     is_sane = sanity_check_all()
-    if not is_sane:
+    if is_sane:
         sys.exit(0)
     else:
         sys.exit(1)
