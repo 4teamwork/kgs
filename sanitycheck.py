@@ -18,14 +18,16 @@ ERROR_MSG = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
 
 
-def _sanity_check(buf, filepath):
+def _sanity_check(buf):
     """Sanity check contents of one kgs-file.
     """
 
+    filepath = buf.name
+    content = buf.read()
     packages = dict()
     duplicates = dict()
     is_sane = True
-    match = EXP_SECTION.search(buf)
+    match = EXP_SECTION.search(content)
     if not match:
         return
 
@@ -56,7 +58,7 @@ def sanity_check_all():
     for root, _dirs, files in os.walk(kgs_dir_path):
         for each in files:
             filepath = os.path.join(root, each)
-            is_sane = _sanity_check(open(filepath, 'r').read(), filepath)
+            is_sane = _sanity_check(open(filepath, 'r'))
     return is_sane
 
 
