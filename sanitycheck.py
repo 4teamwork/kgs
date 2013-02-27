@@ -28,6 +28,7 @@ def _sanity_check(buf, filepath):
     match = EXP_SECTION.search(buf)
     if not match:
         return
+
     version_pinnings = match.group(1)
     for package, version in EXP_PINNING.findall(version_pinnings):
         if package in packages:
@@ -36,6 +37,7 @@ def _sanity_check(buf, filepath):
             duplicates[package].append(version)
         else:
             packages[package] = version
+
     if duplicates:
         is_sane = False
         for package, duplicate_versions in duplicates.items():
