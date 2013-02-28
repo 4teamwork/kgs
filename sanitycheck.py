@@ -14,8 +14,9 @@ import sys
 
 EXP_SECTION = re.compile("\[versions\]\n([^\[]*)")
 EXP_PINNING = re.compile("([\w\.]+)[\s]*=[\s]*([\w\.]+)")
-ERROR_MSG = ("ERROR: package '%s' has two or more pinnings: %s "
+MSG_ERROR = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
+MSG_OK = 'all ok!'
 
 
 def _sanity_check(buf):
@@ -43,7 +44,7 @@ def _sanity_check(buf):
     if duplicates:
         is_sane = False
         for package, duplicate_versions in duplicates.items():
-            print ERROR_MSG % (package, ' and '.join(duplicate_versions),
+            print MSG_ERROR % (package, ' and '.join(duplicate_versions),
                                filepath)
     return is_sane
 
@@ -53,7 +54,7 @@ def sanity_check_all():
     """
 
     my_dir = os.path.abspath(os.path.dirname(__file__))
-    kgs_dir_path = os.path.join(my_dir, 'kgs')
+    kgs_dir_path = os.path.join(my_dir, 'release')
     is_sane = True
     for root, _dirs, files in os.walk(kgs_dir_path):
         for each in files:
@@ -65,6 +66,7 @@ def sanity_check_all():
 if __name__ == "__main__":
     is_sane = sanity_check_all()
     if is_sane:
+        print MSG_OK
         sys.exit(0)
     else:
         sys.exit(1)
