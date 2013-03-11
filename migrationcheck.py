@@ -11,6 +11,7 @@ from StringIO import StringIO
 from dataloader import load_data
 from pprint import pprint
 import urllib2
+from urlparse import urlsplit
 
 
 class BuildoutConfigReader(object):
@@ -54,14 +55,41 @@ class BuildoutConfigReader(object):
             for url in extend_files:
                 assert url.startswith('http')
                 self.get_extends_recursive(configfiles,
-                                           self._download_file(url))
+                                           self._get_file_contents(url))
 
-    def _download_file(self, url):
+    def _get_file_contents(self, url):
         """ Download url an return response file-like object.
         """
 
         request = urllib2.Request(url)
         return urllib2.urlopen(request)
+
+
+class LocalBuildoutConfigReader(BuildoutConfigReader):
+    """Read buildout config files only from local data if possible.
+    """
+
+    def __init__(self, buf, system_versions):
+        super(LocalBuildoutConfigReader, self).__init__(buf)
+        self.system_versions = system_versions
+
+    def _get_file_contents(self, url):
+        """Extract package and version from url and try the local data storage
+        first before falling back to downloading data over the web.
+
+        """
+
+        _scheme, _netloc, path, _query, _fragment = urlsplit(url)
+        paths = path.split('/')
+        version = paths[-1]
+        package = paths[-2]
+
+        system_version = self.system_versions.get((package, version))
+        if system_version:
+            return StringIO(buf=system_version.render())
+        else:
+            return super(LocalBuildoutConfigReader, self)\
+                                                       ._get_file_contents(url)
 
 
 def check_migration(system_versions):
@@ -70,14 +98,16 @@ def check_migration(system_versions):
 
     for each in system_versions.values():
         print "checking: %s" % each
-
-        local_parser = BuildoutConfigReader(each.render()).get_config()
+        local_parser = LocalBuildoutConfigReader(each.render(),
+                                                 system_versions).get_config()
         local_pinnings = set(local_parser.items('versions'))
+
         try:
-            response = urllib2.urlopen(urllib2.Request(each.kgs_url))
+            response = urllib2.urlopen(urllib2.Request(each.app_engine_url))
         except urllib2.HTTPError:
             print "skipping bugged version %s" % each.kgs_url
             continue
+
         web_parser = BuildoutConfigReader(response.read()).get_config()
         web_pinnings = set(web_parser.items('versions'))
 
@@ -87,6 +117,14 @@ def check_migration(system_versions):
             print 'difference for %s:' % each
             pprint(difference)
             print 30 * '-'
+
+        missing = web_pinnings.difference(local_pinnings)
+        if missing:
+            print 30 * '-'
+            print 'missing for %s:' % each
+            pprint(missing)
+            print 30 * '-'
+
     print 'done'
 
 

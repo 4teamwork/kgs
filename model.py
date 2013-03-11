@@ -29,27 +29,52 @@ class SystemVersion(object):
     """
 
     def __init__(self, row, systems):
+        self._row = row  # keep for debugging
         self.system = systems[row['parent_name']]
         self.name = row['name']
         self.parent = None
-        self.extends = []
+        self._extends = dict()
         self.pinnings = []
         exp = re.compile("datastore_types.Key.from_path\("
-                         "u'System', u'sys_([\w\.]*)', u'SystemVersion', "
-                         "u'ver_([\w\.]*)', _app=u'ftwkgs'\)")
-        self._extends = exp.findall(row['extends'])
+                         "u'System', u'sys_([\w\.-]*)', u'SystemVersion', "
+                         "u'ver_([\w\.-]*)', _app=u'ftwkgs'\)")
+        self._extends_keys = exp.findall(row['extends'])
 
     def resolve(self, system_versions):
         """Resolve parent and extended SystemVersions.
         """
 
-        for key in self._extends:
+        for key in self._extends_keys:
             extends = system_versions[key]
-            if extends.system.name == self.system.name:
+            sys_name = extends.system.name
+            if sys_name == self.system.name:
                 assert self.parent is None, 'only one parent is expected'
                 self.parent = extends
             else:
-                self.extends.append(extends)
+                self._extends[sys_name] = extends
+
+    @property
+    def extends(self):
+        """Return the directly and indirectly extended versions.
+        """
+
+        # naive implementation but it gets the job done quickly enough
+        self._find_indirect_extends(self.parent, self._extends)
+        return self._extends.values()
+
+    def _find_indirect_extends(self, parent, extends):
+        """Find all indirect extends but be extra careful to insert every
+        system only once.
+        """
+
+        if not parent:
+            return
+
+        for each in parent.extends:
+            if not each.system.name in extends:
+                extends[each.system.name] = each
+
+        self._find_indirect_extends(parent.parent, extends)
 
     def __str__(self):
         return "%s:%s" % (self.system.name, self.name)
@@ -111,14 +136,24 @@ class SystemVersion(object):
 
         return (self.system.name, self.name)
 
+    def _format_url(self, url):
+        sys_name = urllib.quote(self.system.name)
+        name = urllib.quote(self.name)
+        return url % (sys_name, name)
+
     @property
     def kgs_url(self):
         """Return the URL where this SystemVersion is available.
         """
 
-        sys_name = urllib.quote(self.system.name)
-        name = urllib.quote(self.name)
-        return "http://kgs.4teamwork.ch/release/%s/%s" % (sys_name, name)
+        return self._format_url("http://kgs.4teamwork.ch/release/%s/%s")
+
+    @property
+    def app_engine_url(self):
+        """return the URL pointing to app-engine.
+        """
+
+        return self._format_url("http://7-1.ftwkgs.appspot.com/release/%s/%s")
 
     @property
     def rel_path(self):
