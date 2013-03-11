@@ -1,10 +1,14 @@
 # Known good set for teamraum version 4.x
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.x
 
+[buildout]
+extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.0
+
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.x
 collective.js.extjs = 1.2
 collective.mtrsetup = 1.4.1
+collective.quickupload = 1.5.8
 egov.classification = 0.4
 egov.jsonimport = 1.0a2
 egov.myaccount = 1.3
