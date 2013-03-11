@@ -6,6 +6,7 @@ extends = http://kgs.4teamwork.ch/release/opengever/2.0c1
 
 [versions]
 # http://kgs.4teamwork.ch/release/opengever-zug/2.0c1
+izug.basetheme = 1.0a4
 opengever.zug.bdarp = 2.0b5
 opengever.zugpolicy.base = 2.0a3
 opengever.zugpolicy.dbkdbks = 2.0a5
@@ -16,3 +17,32 @@ opengever.zugpolicy.gdgea = 2.0a5
 opengever.zugpolicy.sdsds = 2.0a4
 opengever.zugpolicy.skarr = 2.0a3
 opengever.zugpolicy.vdvds = 2.0a4
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b9
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b8
+opengever.zug.digva = 2.0a3
+opengever.zugpolicy.bdbds = 2.0a3
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b7
+opengever.zugpolicy.diafj = 2.0a3
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b6
+opengever.zug.gdgea = 2.0a1
+opengever.zugpolicy.bdarp = 2.0a6
+opengever.zugpolicy.digva = 2.0a3
+opengever.zugpolicy.fdkfv = 2.0a2
+opengever.zugpolicy.skaarch = 2.0a6
+opengever.zugpolicy.skakr = 2.0a3
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b5
+opengever.zug.skakr = 2.0b1
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b4
+opengever.zug.base = 2.0a1
+opengever.zug.bdbds = 2.0a1
+opengever.zug.skarr = 2.0a1
+
+# http://kgs.4teamwork.ch/release/opengever-zug/2.0b3
+opengever.zug.fdfds = 2.0a1
+opengever.zugconfig = 2.0a3
