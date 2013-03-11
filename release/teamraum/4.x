@@ -9,6 +9,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.0
 collective.js.extjs = 1.2
 collective.mtrsetup = 1.4.1
 collective.quickupload = 1.5.8
+collective.solr = 3.0
 egov.classification = 0.4
 egov.jsonimport = 1.0a2
 egov.myaccount = 1.3
