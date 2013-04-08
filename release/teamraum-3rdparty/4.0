@@ -45,7 +45,6 @@ collective.portlet.collectionmultiview = 2.1.5
 collective.quickupload = 1.5.8
 collective.recipe.filestorage = 0.6
 collective.solr = 3.0
-collective.xmltestreport = 1.2.8
 cssutils = 0.9.9
 dataflake.cache = 1.4
 dataflake.fakeldap = 1.1
