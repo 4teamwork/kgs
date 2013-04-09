@@ -11,6 +11,8 @@ BASEPATH = os.path.abspath(os.path.dirname(__file__))
 PREFIX = '''# DO NOT MODIFY
 # This file is auto generated, use the update script!
 
+[buildout]
+extends = http://plonesource.org/sources.cfg
 '''
 
 
@@ -30,42 +32,39 @@ def get_repos():
 
 
 def write_branches(repos, output):
-    sorted(map(lambda name: output.set('branches',
-                                       name.split('/')[-1], 'master'),
-               reduce(list.__add__, repos.values())))
+    for name in reduce(list.__add__, repos.values()):
+        shortname = name.split('/')[-1]
+        output['branches'][shortname] = 'master'
 
 
 def write_sources(repos, output):
     for name in repos['gitolite']:
         shortname = name.split('/')[-1]
 
-        output.set(
-            'sources', shortname,
-            'git gitolite@git.4teamwork.ch:%s.git'
-            ' branch=${branches:%s}' % (
-                name, shortname))
+        output['sources'][shortname] = \
+            'git gitolite@git.4teamwork.ch:%s.git  branch=${branches:%s}' % (
+            name, shortname)
 
     for name in repos['github_private']:
-        output.set(
-            'sources', name,
-            'git git@github.com:4teamwork/%s.git'
-            ' branch=${branches:%s}' % (
-                name, name))
+        output['sources'][name] = \
+            'git git@github.com:4teamwork/%s.git branch=${branches:%s}' % (
+            name, name)
+
+
+def write_output(data, file_):
+    for section in sorted(data):
+        file_.write('\n')
+        file_.write('\n')
+        file_.write('[%s]\n' % section)
+
+        for key, value in sorted(data[section].items()):
+            file_.write('%s = %s\n' % (key, value))
+
 
 
 config = get_config()
-output = ConfigParser()
-output.add_section('buildout')
-output.set('buildout', 'extends', 'http://plonesource.org/sources.cfg')
-
-# copy branches and sources sections
-output.add_section('branches')
-for key, value in config.items('branches'):
-    output.set('branches', key, value)
-
-output.add_section('sources')
-for key, value in config.items('sources'):
-    output.set('sources', key, value)
+output = {'branches': dict(config.items('branches')),
+          'sources': dict(config.items('sources'))}
 
 repos = get_repos()
 branches = write_branches(repos, output)
@@ -73,6 +72,6 @@ sources = write_sources(repos, output)
 
 with open(os.path.join(BASEPATH, 'sources.cfg'), 'w+') as file_:
     file_.write(PREFIX)
-    output.write(file_)
+    write_output(output, file_)
 
 print 'UPDATED'
