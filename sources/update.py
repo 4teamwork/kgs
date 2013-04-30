@@ -1,4 +1,4 @@
-#!/usr/bin/env update
+#!/usr/bin/env python
 
 
 import os
