@@ -29,6 +29,7 @@ ftw.pdfgenerator = 1.2.6
 ftw.poodle = 1.3.1
 ftw.subsite = 1.0
 ftw.tabbedview = 3.3.5
+ftw.table = 1.11
 ftw.tagging = 1.0.3
 ftw.task = 2.4.3
 ftw.testing = 1.3
@@ -42,7 +43,6 @@ simplelayout.types.flowplayerblock = 1.0c1
 # http://kgs.4teamwork.ch/release/teamraum/3.2
 egov.contactdirectory = 1.5.1
 egov.tabbedview = 1.1.10
-ftw.table = 1.10
 izug.ticketbox = 4.5.3
 simplelayout.types.news = 1.2.1
 simplelayout.ui.base = 3.0c1
