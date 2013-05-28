@@ -29,7 +29,7 @@ ftw.statusmap = 1.1
 ftw.subsite = 1.1
 ftw.testing = 1.3.1
 ftw.topics = 1.0
-ftwshop.adminpay = 1.0.1
+ftwshop.adminpay = 1.0.2
 ftwshop.simplelayout = 1.0
 simplelayout.portlet.dropzone = 1.2.1
 
