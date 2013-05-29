@@ -1,5 +1,5 @@
-# Known good set for teamraum version 4.0
-# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.0
+# Known good set for teamraum version 4.1rc
+# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.1rc
 
 [buildout]
 extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.1rc
