@@ -2,7 +2,7 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/izug-organisation/5.0
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum/4.0.1rc
+extends = http://kgs.4teamwork.ch/release/teamraum/4.1rc
 
 [versions]
 # http://kgs.4teamwork.ch/release/izug-organisation/5.0
