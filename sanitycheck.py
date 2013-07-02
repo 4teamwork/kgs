@@ -13,7 +13,7 @@ import sys
 
 
 EXP_SECTION = re.compile("\[versions\]\n([^\[]*)")
-EXP_PINNING = re.compile("([\w\.]+)[\s]*=[\s]*([\w\.]+)")
+EXP_PINNING = re.compile("([#\w\.]+)[\s]*=[\s]*([\w\.]+)")
 MSG_ERROR = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
 MSG_OK = 'all ok!'
@@ -34,6 +34,9 @@ def _sanity_check(buf):
 
     version_pinnings = match.group(1)
     for package, version in EXP_PINNING.findall(version_pinnings):
+        if package.startswith('#'):
+            continue
+
         if package in packages:
             if not package in duplicates:
                 duplicates[package] = [packages[package]]
