@@ -6,3 +6,4 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.0.1.1
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
+ftw.subsite = 1.2.0
