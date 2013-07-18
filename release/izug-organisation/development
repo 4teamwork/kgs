@@ -3,3 +3,6 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.0.2
 
 
 [versions]
+zc.buildout =
+distribute =
+setuptools =
