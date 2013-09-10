@@ -4,6 +4,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.1rc
 [versions]
 # http://kgs.4teamwork.ch/release/izug-organisation/5.0.3c1
 izug.organisation = 5.0.3
+ftw.upgrade = 1.6.1
 
 # http://kgs.4teamwork.ch/release/izug-organisation/5.0.2.1
 ftw.file = 1.7.1
@@ -17,7 +18,7 @@ ftw.shop = 1.2
 ftw.solr = 1.1.2
 ftw.tabbedview = 3.3.6
 ftw.table = 1.12.2
-ftw.upgrade = 1.4.0
+#ftw.upgrade = 1.4.0
 vs.genericsetup.ldap = 1.2
 suds = 0.4
 requests = 1.2.3
