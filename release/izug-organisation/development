@@ -9,3 +9,4 @@ setuptools =
 
 ftw.publisher.core = 2.3.1
 Products.DataGridField = 1.9
+Products.PloneFormGen = 1.7.12
