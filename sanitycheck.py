@@ -13,6 +13,8 @@ import sys
 
 
 EXP_SECTION = re.compile("\[versions\]\n([^\[]*)")
+MSG_ERROR_EXP_SECTION = (
+    "ERROR: file '%s' needs a [version] section")
 EXP_PINNING = re.compile("([#\w\.]+)[\s]*=[\s]*([\w\.]+)")
 MSG_ERROR = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
@@ -30,6 +32,7 @@ def _sanity_check(buf):
     is_sane = True
     match = EXP_SECTION.search(content)
     if not match:
+        print MSG_ERROR_EXP_SECTION % (filepath)
         return
 
     version_pinnings = match.group(1)
