@@ -1,10 +1,10 @@
 # Known good set for bern
-# The latest version can be found at http://kgs.4teamwork.ch/release/bern/1.0
-
-[buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum/4.0.1.1
+# The latest version can be found at http://kgs.4teamwork.ch/release/bern/develop-latest
 
 [versions]
+# http://dist.plone.org/release/4.2.5/versions.cfg
+# http://kgs.4teamwork.ch/release/teamraum/4.0.1.1
+
 # http://kgs.4teamwork.ch/release/bern/1.0
 ftw.contenttemplates = 1.0
 Products.LinguaPlone = 4.1.3
