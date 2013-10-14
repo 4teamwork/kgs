@@ -35,7 +35,7 @@ ftw.publisher.core = 2.3.0
 ftw.publisher.receiver = 2.0.1
 egov.workflows = 1.2
 egov.contactdirectory = 1.5.4
-ftw.contentpage = 1.4
+ftw.contentpage = 1.5.1
 eGov = 4.0.2
 Products.ClockServer = 0.2-Zope2.9dev
 
