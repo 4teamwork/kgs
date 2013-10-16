@@ -7,6 +7,7 @@ collective.dexteritytextindexer = 2.0
 collective.flowplayer = 4.0
 collective.js.jqueryui = 1.10.3
 collective.z3cform.wizard = 1.4.8
+Products.DataGridField = 1.9.0
 
 # http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.0.1
 Products.PloneFormGen = 1.7.11
@@ -47,7 +48,6 @@ plone.principalsource = 1.0b1
 plone.resource = 1.0.2
 Products.AddRemoveWidget = 1.5.0
 Products.AutocompleteWidget = 1.4.0
-Products.DataGridField = 1.8.4
 Products.LDAPMultiPlugins = 1.14
 Products.LDAPUserFolder = 2.24
 Products.Maps = 3.0
