@@ -1,11 +1,11 @@
-# Known good set for teamraum version 4.1rc
-# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.1rc
+# Known good set for teamraum version 4.1rc2
+# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.1rc2
 
 [buildout]
 extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.1rc
 
 [versions]
-# http://kgs.4teamwork.ch/release/teamraum/4.0.1rc
+# http://kgs.4teamwork.ch/release/teamraum/4.1rc2
 collective.deletepermission = 1.1.2
 collective.editmodeswitcher = 1.0.1
 egov.contactdirectory = 1.5.4
