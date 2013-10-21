@@ -15,7 +15,7 @@ import sys
 EXP_SECTION = re.compile("\[versions\]\n([^\[]*)")
 MSG_ERROR_EXP_SECTION = (
     "ERROR: file '%s' needs a [version] section")
-EXP_PINNING = re.compile("([#\w\.-]+)[\s]*=[\s]*([\w\.]+)")
+EXP_PINNING = re.compile("([#\w\.-]+)[\s]*=[\s]*([\w\.-]+)")
 MSG_ERROR = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
 MSG_OK = 'all ok!'

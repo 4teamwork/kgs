@@ -12,6 +12,19 @@ class TestSanityCheck(unittest.TestCase):
         buf.name = ''
         return buf
 
+    def assertInsane(self, buf, *versions):
+        try:
+            sanity_check(buf)
+        except Insane as e:
+            for version in versions:
+                # poor man's assertIn for compatibility with python < 2.7
+                if version not in e.message:
+                    msg = '%s not found in %s' % (version, e.message)
+                    self.fail(msg)
+            return
+        else:
+            raise self.failureException, "Insane not raised"
+
     def test_empty_buf_fails(self):
         self.assertRaises(MissingSection, sanity_check, self._make_buf(''))
 
@@ -29,13 +42,13 @@ class TestSanityCheck(unittest.TestCase):
         buf = self._make_buf('[versions]',
                              'foo = 1.1-1',
                              'foo = 1.1-2')
-        self.assertRaises(Insane, sanity_check, buf)
+        self.assertInsane(buf, '1.1-1', '1.1-2')
 
     def test_version_with_text(self):
         buf = self._make_buf('[versions]',
-                             'foo = 1.1-alpha',
-                             'foo = 1.1-beta')
-        self.assertRaises(Insane, sanity_check, buf)
+                             'foo = 1.1_alpha',
+                             'foo = 1.1_beta')
+        self.assertInsane(buf, '1.1_alpha', '1.1_beta')
 
     def test_package_with_underlines(self):
         buf = self._make_buf('[versions]',
@@ -54,14 +67,14 @@ class TestSanityCheck(unittest.TestCase):
         buf = self._make_buf('[versions]',
                              'foo = 1.1',
                              'foo = 1.3')
-        self.assertRaises(Insane, sanity_check, buf)
+        self.assertInsane(buf, '1.1', '1.3')
 
     def test_triple_version_fails(self):
         buf = self._make_buf('[versions]',
                              'foo = 1.1',
                              'foo = 1.3',
                              'foo = 1.4')
-        self.assertRaises(Insane, sanity_check, buf)
+        self.assertInsane(buf, '1.1', '1.3', '1.4')
 
 
 if __name__ == '__main__':
