@@ -15,25 +15,27 @@ import sys
 EXP_SECTION = re.compile("\[versions\]\n([^\[]*)")
 MSG_ERROR_EXP_SECTION = (
     "ERROR: file '%s' needs a [version] section")
-EXP_PINNING = re.compile("([#\w\.-]+)[\s]*=[\s]*([\w\.]+)")
+EXP_PINNING = re.compile("([#\w\.-]+)[\s]*=[\s]*([\w\.-]+)")
 MSG_ERROR = ("ERROR: package '%s' has two or more pinnings: %s "
              "in file '%s'")
 MSG_OK = 'all ok!'
 
 
-def _sanity_check(buf):
-    """Sanity check contents of one kgs-file.
-    """
+def sanity_check(buf):
+    """Sanity check contents of one kgs-file. Buf must be a file-like object.
 
+    We don't use ConfigParser to read the file since it overwrites duplicate
+    entries silently.
+
+    """
     filepath = buf.name
     content = buf.read()
     packages = dict()
     duplicates = dict()
-    is_sane = True
     match = EXP_SECTION.search(content)
     if not match:
-        print MSG_ERROR_EXP_SECTION % (filepath)
-        return
+        msg = MSG_ERROR_EXP_SECTION % (filepath)
+        raise MissingSection(msg)
 
     version_pinnings = match.group(1)
     for package, version in EXP_PINNING.findall(version_pinnings):
@@ -48,11 +50,12 @@ def _sanity_check(buf):
             packages[package] = version
 
     if duplicates:
-        is_sane = False
+        messages = []
         for package, duplicate_versions in duplicates.items():
-            print MSG_ERROR % (package, ' and '.join(duplicate_versions),
+            msg = MSG_ERROR % (package, ' and '.join(duplicate_versions),
                                filepath)
-    return is_sane
+            messages.append(msg)
+        raise Insane('\n'.join(messages))
 
 
 def sanity_check_all():
@@ -62,11 +65,25 @@ def sanity_check_all():
     my_dir = os.path.abspath(os.path.dirname(__file__))
     kgs_dir_path = os.path.join(my_dir, 'release')
     is_sane = True
+
     for root, _dirs, files in os.walk(kgs_dir_path):
         for each in files:
-            filepath = os.path.join(root, each)
-            is_sane = is_sane and _sanity_check(open(filepath, 'r'))
+            try:
+                filepath = os.path.join(root, each)
+                sanity_check(open(filepath, 'r'))
+            except Insane as e:
+                print e.message
+                is_sane = False
+
     return is_sane
+
+
+class Insane(Exception):
+    """Raised when a sanity check fails."""
+
+
+class MissingSection(Exception):
+    """Raised when an expected section is missing."""
 
 
 if __name__ == "__main__":
