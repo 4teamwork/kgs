@@ -3,8 +3,9 @@
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.1rc2
+collective.autopermission = 1.0b2
 collective.quickupload = 1.6.1
-pyScss = 1.2.0.post3
+ua-parser = 0.3.4
 
 # http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.1rc
 collective.dexteritytextindexer = 2.0
