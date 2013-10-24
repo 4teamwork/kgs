@@ -45,3 +45,6 @@ Genshi = 0.6
 gocept.download = 0.9.5
 hexagonit.recipe.download = 1.7
 
+# Testing
+ftw.builder = 1.1.0
+ftw.testing = 1.5.0
