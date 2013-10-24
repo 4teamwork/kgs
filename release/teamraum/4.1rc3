@@ -6,7 +6,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.1rc3
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.1rc3
-eGov = 4.1
+eGov = 4.1.1
 egov.myaccount = 1.5.1
 ftw.workspace = 1.8.0
 plonetheme.teamraum = 3.0.0rc1
