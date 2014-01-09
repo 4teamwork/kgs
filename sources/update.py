@@ -38,11 +38,11 @@ def write_branches(repos, output):
 
 
 def write_sources(repos, output):
-    for name in repos['gitolite']:
+    for name in repos['gitlab']:
         shortname = name.split('/')[-1]
 
         output['sources'][shortname] = \
-            'git gitolite@git.4teamwork.ch:%s.git  branch=${branches:%s}' % (
+            'git git@git.4teamwork.ch:%s.git  branch=${branches:%s}' % (
             name, shortname)
 
     for name in repos['github_private']:
