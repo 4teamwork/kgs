@@ -1,9 +1,8 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.2
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.2.1
 
 
 [versions]
-ftw.blog = 1.5.2
 zc.buildout =
 distribute =
 setuptools =
