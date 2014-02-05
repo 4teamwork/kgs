@@ -6,3 +6,8 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.2.1
 zc.buildout =
 distribute =
 setuptools =
+
+# packages for ROG
+# https://extranet.4teamwork.ch/support/zug/maintlog/10242
+ftw.pdfgenerator = 1.2.10
+ftw.book = 2.2.19
