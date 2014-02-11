@@ -7,3 +7,15 @@ zc.buildout =
 distribute =
 setuptools =
 
+# collective.geo bundle
+collective.geo.contentlocations = 2.5
+collective.geo.geographer = 1.7
+collective.geo.kml = 2.5
+collective.geo.mapwidget = 1.6
+collective.geo.openlayers = 2.5
+collective.geo.settings = 2.5
+geopy = 0.95
+
+# solr
+collective.solr = 3.0
+ftw.solr = 1.3
