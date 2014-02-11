@@ -1,0 +1,9 @@
+[buildout]
+extends = http://kgs.4teamwork.ch/release/izug-workspace/5.0
+
+
+[versions]
+zc.buildout =
+distribute =
+setuptools =
+
