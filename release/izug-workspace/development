@@ -82,7 +82,7 @@ dataflake.fakeldap = 1.1
 Products.LDAPMultiPlugins = 1.14
 Products.LDAPUserFolder = 2.26
 Products.PloneLDAP = 1.2
-python-ldap = 2.4.14
+python-ldap = 2.3.13
 vs.genericsetup.ldap = 1.2
 
 # misc
