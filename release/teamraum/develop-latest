@@ -6,3 +6,6 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.2.2
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
+
+# Move to teamraum 3rdparty
+plone.formwidget.contenttree = 1.0.7
