@@ -1,0 +1,7 @@
+[buildout]
+extends =
+    http://kgs.4teamwork.ch/release/bgbern/live
+
+[versions]
+ftw.contentpage = 1.6
+ftw.file = 1.8
