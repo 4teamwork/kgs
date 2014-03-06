@@ -11,3 +11,5 @@ setuptools =
 # https://extranet.4teamwork.ch/support/zug/maintlog/10242
 ftw.pdfgenerator = 1.2.10
 ftw.book = 2.2.19
+
+ftw.upgrade = 1.7.2
