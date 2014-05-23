@@ -4,3 +4,4 @@
 [buildout]
 extends = http://kgs.4teamwork.ch/release/bern/1.1.2
 
+[versions]
