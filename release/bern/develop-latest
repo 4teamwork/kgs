@@ -5,3 +5,4 @@
 extends = http://kgs.4teamwork.ch/release/bern/1.1.1
 
 [versions]
+bern.webtheme = 1.1.2
