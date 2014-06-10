@@ -1,0 +1,25 @@
+# http://kgs.4teamwork.ch/release/edubs/1.0.0
+
+[versions]
+# buildout
+collective.recipe.filestorage = 0.6
+collective.recipe.patch = 0.2.2
+collective.recipe.supervisor = 0.17
+plone.recipe.precompiler = 0.6
+ftw.recipe.deployment = 1.0.1
+zc.buildout =
+distribute =
+setuptools =
+
+# collective.geo bundle
+collective.geo.contentlocations = 3.1
+collective.geo.geographer = 2.0
+collective.geo.kml = 3.2
+collective.geo.mapwidget = 2.1.2
+collective.geo.openlayers = 3.1
+collective.geo.settings = 3.0
+collective.z3cform.colorpicker = 1.1
+geopy = 0.99
+
+#teamwork
+ftw.geo = 1.3
