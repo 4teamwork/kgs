@@ -1,0 +1,6 @@
+# Known good set for edubs
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/edubs/1.0.0
+
+[versions]
