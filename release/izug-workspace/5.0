@@ -4,15 +4,18 @@
 
 [versions]
 # http://kgs.4teamwork.ch/release/izug-workspace/5.0
+
 # buildout
 collective.recipe.filestorage = 0.6
 collective.recipe.patch = 0.2.2
+collective.recipe.scriptgen = 0.2
 collective.recipe.supervisor = 0.17
-plone.recipe.precompiler = 0.6
-ftw.recipe.deployment = 1.0.1
-zc.buildout =
 distribute =
+ftw.recipe.deployment = 1.0.1
+hexagonit.recipe.download = 1.7
+plone.recipe.precompiler = 0.6
 setuptools =
+zc.buildout =
 
 # collective.geo bundle
 collective.geo.contentlocations = 2.5
@@ -130,3 +133,6 @@ ua-parser = 0.3.4
 xmlbuilder = 1.0
 z3c.jbot = 0.7.1
 z3c.json = 0.5.5
+i18ndude = 3.3.3
+pyScss = 1.2.0
+pygeoif = 0.3.1dev
