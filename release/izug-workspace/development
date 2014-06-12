@@ -83,11 +83,11 @@ izug.latex = 1.1.2
 izug.ticketbox = 4.5.8
 pas.plugins.trustedproxyauth = 1.2
 plonetheme.onegov = 1.2.5
-simplelayout.base = 3.0.4
+simplelayout.base = 4.0.0
 simplelayout.portlet.dropzone = 1.2.2
 simplelayout.types.common = 3.0.3
 simplelayout.types.flowplayerblock = 1.0c1
-simplelayout.ui.base = 3.0c1
+simplelayout.ui.base = 3.0.0
 simplelayout.ui.dragndrop = 3.0.1
 
 # 3rd party / plone addons
