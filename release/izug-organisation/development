@@ -1,5 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.2.3
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.2.4
 
 
 [versions]
@@ -11,8 +11,5 @@ setuptools =
 # https://extranet.4teamwork.ch/support/zug/maintlog/10242
 ftw.pdfgenerator = 1.3.2
 ftw.book = 2.2.19
-
 ftw.upgrade = 1.7.4
-ftw.contentpage = 1.6.7
-simplelayout.base = 4.0.0
 ftw.mobilenavigation = 1.2.3
