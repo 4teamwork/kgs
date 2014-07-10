@@ -12,6 +12,7 @@ simplelayout.types.flowplayerblock = 1.0.1
 plonetheme.onegov = 1.2.5
 onegov.edu = 1.0.2
 plonetheme.teamraum = 3.0.8
+edubs.policy = 1.0.0
 
 # buildout
 collective.recipe.filestorage = 0.6
