@@ -10,7 +10,7 @@ simplelayout.base = 4.0.3
 simplelayout.ui.base = 3.0.1
 simplelayout.types.flowplayerblock = 1.0.1
 plonetheme.onegov = 1.2.5
-onegov.edu = 1.0.1
+onegov.edu = 1.0.2
 plonetheme.teamraum = 3.0.8
 
 # buildout
