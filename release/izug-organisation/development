@@ -3,6 +3,7 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.3
 
 
 [versions]
+simplelayout.base = 4.0.3
 zc.buildout =
 distribute =
 setuptools =
