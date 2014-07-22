@@ -5,3 +5,4 @@
 extends = http://kgs.4teamwork.ch/release/bern/1.1.4
 
 [versions]
+bern.web =
