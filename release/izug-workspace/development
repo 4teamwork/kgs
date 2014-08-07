@@ -4,3 +4,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.0.1
 
 [versions]
 ftw.slider = 2.1.0
+ftw.file = 1.8.2
