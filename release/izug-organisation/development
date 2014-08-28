@@ -1,5 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.3.3
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.3.4
 
 
 [versions]
@@ -7,5 +7,3 @@ zc.buildout =
 distribute =
 setuptools =
 
-# Release 5.3.4
-seantis.dir.eventsportlet = 1.0
