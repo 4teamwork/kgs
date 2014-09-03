@@ -9,3 +9,6 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.2.7
 
 # Move to teamraum 3rdparty
 plone.formwidget.contenttree = 1.0.7
+
+# ILastModifier required for ftw.activity
+collective.lastmodifier = 1.1.0
