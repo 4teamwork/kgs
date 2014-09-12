@@ -7,3 +7,5 @@ zc.buildout =
 distribute =
 setuptools =
 
+ftw.profilehook = 1.0.0
+
