@@ -3,3 +3,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.0.2
 
 
 [versions]
+ftw.meeting = 1.5.2
