@@ -12,6 +12,7 @@ collective.lastmodifier = 1.1.0
 
 # Use latest release of several Packages
 ftw.activity = 1.1.0
+ftw.avatar = 1.0.3
 ftw.blog = 1.6.1
 ftw.book = 3.0.0
 ftw.contentpage = 1.7.2  # Eher dann 1.7.3
