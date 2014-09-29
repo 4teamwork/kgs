@@ -11,6 +11,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.2.7
 collective.dexteritytextindexer = 2.0.1
 collective.js.ui.multiselect = 1.0.1
 collective.lastmodifier = 1.1.2
+eGov = 4.3.0
 egov.contactdirectory = 1.6.2
 egov.myaccount = 1.5.3
 egov.workflows = 1.4.1
