@@ -8,13 +8,12 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.2.7
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
 
 # Use latest release of several Packages
-ftw.workspace = 3.0.0
-egov.workflows = 1.4.0
 collective.dexteritytextindexer = 2.0.1
 collective.js.ui.multiselect = 1.0.1
 collective.lastmodifier = 1.1.2
 egov.contactdirectory = 1.6.2
 egov.myaccount = 1.5.3
+egov.workflows = 1.4.1
 ftw.activity = 1.1.0
 ftw.avatar = 1.0.3
 ftw.billboard = 1.3.4
@@ -51,6 +50,7 @@ ftw.task = 2.4.7
 ftw.tooltip = 1.1.4
 ftw.upgrade = 1.10.0
 ftw.usermanagement = 1.9.1
+ftw.workspace = 3.0.0
 ftw.zipexport = 1.2.1
 izug.ticketbox = 4.5.11
 plonetheme.teamraum = 3.0.10
