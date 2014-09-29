@@ -9,6 +9,7 @@ collective.js.jqueryui = 1.10.4
 collective.js.ui.multiselect = 1.0.1
 collective.quickupload = 1.6.5
 collective.z3cform.colorpicker = 1.1
+diazo = 1.0.4
 Pillow = 2.3.2
 plone.app.theming = 1.1.1
 plone.formwidget.contenttree = 1.0.7
