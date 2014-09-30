@@ -1,0 +1,14 @@
+# Known good set for opengever-sg
+# The latest version can be found at http://kgs.4teamwork.ch/release/opengever-sg/3.0
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/opengever/3.0
+
+
+[versions]
+opengever.sg = 1.0.3
+opengever.core = 3.2.3
+plonetheme.teamraum = 3.0.6
+
+netsight.windowsauthplugin = 2.0
+kerberos = 1.1.1
