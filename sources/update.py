@@ -37,6 +37,11 @@ def write_branches(repos, output):
         output['branches'][shortname] = 'master'
 
 
+def write_forks(repos, output):
+    for name in repos['github_private']:
+        output['forks'][name] = '4teamwork'
+
+
 def write_sources(repos, output):
     for name in repos['gitlab']:
         shortname = name.split('/')[-1]
@@ -47,8 +52,8 @@ def write_sources(repos, output):
 
     for name in repos['github_private']:
         output['sources'][name] = \
-            'git git@github.com:4teamwork/%s.git branch=${branches:%s}' % (
-            name, name)
+            'git git@github.com:${forks:%s}/%s.git branch=${branches:%s}' % (
+            name, name, name)
 
 
 def write_output(data, file_):
@@ -64,11 +69,13 @@ def write_output(data, file_):
 
 config = get_config()
 output = {'branches': dict(config.items('branches')),
+          'forks': {},
           'sources': dict(config.items('sources'))}
 
 repos = get_repos()
-branches = write_branches(repos, output)
-sources = write_sources(repos, output)
+write_branches(repos, output)
+write_forks(repos, output)
+write_sources(repos, output)
 
 with open(os.path.join(BASEPATH, 'sources.cfg'), 'w+') as file_:
     file_.write(PREFIX)
