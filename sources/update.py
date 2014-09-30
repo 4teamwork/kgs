@@ -52,8 +52,11 @@ def write_sources(repos, output):
 
     for name in repos['github_private']:
         output['sources'][name] = \
-            'git git@github.com:${forks:%s}/%s.git branch=${branches:%s}' % (
-            name, name, name)
+            'git ${buildout:github-cloneurl}' \
+            '${forks:%(name)s}/%(name)s.git' \
+            ' pushurl=${buildout:github-pushurl}' \
+            '${forks:%(name)s}/%(name)s.git' \
+            ' branch=${branches:%(name)s}' % {'name': name}
 
 
 def write_output(data, file_):
