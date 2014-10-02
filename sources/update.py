@@ -13,6 +13,7 @@ PREFIX = '''# DO NOT MODIFY
 
 [buildout]
 extends = http://plonesource.org/sources.cfg
+github-cloneurl = ${buildout:github-ssh}
 '''
 
 
