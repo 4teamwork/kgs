@@ -69,6 +69,7 @@ plone.app.transmogrifier = 1.2
 plone.app.versioningbehavior = 1.1.4
 plone.formwidget.autocomplete = 1.2.1-opengever-1.2
 plone.formwidget.contenttree = 1.0.7
+plone.formwidget.namedfile = 1.0.11
 plone.principalsource = 1.0b1
 plonegov.pdflatex = 1.5.1
 plonegov.recipe.pdflatex = 0.5
