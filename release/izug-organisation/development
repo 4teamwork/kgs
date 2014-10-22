@@ -22,3 +22,4 @@ xlwt = 0.7.5
 xlrd = 0.9.3
 plone.api = 1.1.0
 collective.autopermission = 1.0b2
+ftw.slider = 2.1.1
