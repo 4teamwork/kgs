@@ -8,6 +8,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0b1
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b2
 ftw.contentmenu = 2.3.1
 ftw.contentpage = 1.8.1
+ftw.geo = 1.3.1
 
 
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b1
@@ -28,7 +29,6 @@ ftw.dashboard.dragndrop = 1.5.4
 ftw.dashboard.portlets.favourites = 3.1.2
 ftw.downloadtoken = 1.1.0
 ftw.file = 1.9.0
-ftw.geo = 1.3
 ftw.journal = 1.2.8
 ftw.lawgiver = 1.4.0
 ftw.mail = 2.2.2
