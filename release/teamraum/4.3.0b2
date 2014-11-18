@@ -6,6 +6,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0b1
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b2
+ftw.activity = 1.1.3
 ftw.builder = 1.4.0
 ftw.contentmenu = 2.3.1
 ftw.contentpage = 1.8.1
@@ -20,7 +21,6 @@ eGov = 4.3.1
 egov.contactdirectory = 1.6.2
 egov.myaccount = 1.5.3
 egov.workflows = 1.4.1
-ftw.activity = 1.1.0
 ftw.avatar = 1.0.3
 ftw.billboard = 1.3.4
 ftw.blog = 1.6.1
