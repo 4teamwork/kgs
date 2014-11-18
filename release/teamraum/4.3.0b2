@@ -9,10 +9,10 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0b1
 ftw.activity = 1.1.3
 ftw.builder = 1.4.0
 ftw.contentmenu = 2.3.1
-ftw.contentpage = 1.8.1
+ftw.contentpage = 1.8.2
 ftw.geo = 1.3.1
 plone.api = 1.2.1
-plonetheme.teamraum = 3.1.1
+plonetheme.teamraum = 3.2.0
 
 
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b1
