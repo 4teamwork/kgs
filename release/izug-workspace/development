@@ -14,3 +14,4 @@ ftw.profilehook = 1.0.0
 ftw.workspace = 3.0.1
 plone.api = 1.3.2
 premailer = 2.7.0
+ftw.upgrade = 1.10.2
