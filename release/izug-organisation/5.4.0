@@ -25,11 +25,10 @@ seantis.dir.contacts = 1.7.2
 seantis.dir.eventsportlet = 1.1
 xlrd = 0.9.3
 xlwt = 0.7.5
-
+ftw.contentpage = 1.8.4
 
 # http://kgs.4teamwork.ch/release/izug-organisation/5.3.5
 ftw.book = 3.0.1
-ftw.contentpage = 1.8.0
 ftw.pdfgenerator = 1.3.4
 ftw.profilehook = 1.0.0
 ftw.tagging = 1.1.1
