@@ -7,3 +7,4 @@ extends = http://kgs.4teamwork.ch/release/opengever/3.0
 [versions]
 opengever.zug = 1.8.1
 opengever.zugconfig = 2.2
+ftw.tika = 2.0
