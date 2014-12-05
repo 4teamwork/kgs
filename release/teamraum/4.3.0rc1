@@ -2,13 +2,14 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.3.0rc1
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0b1
+extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0rc1
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0rc1
 eGov = 4.3.3
 izug.ticketbox = 4.6.0
 ftw.contentpage = 1.8.5
+ftw.footer = 1.0.1
 
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b2
 ftw.activity = 1.1.3
