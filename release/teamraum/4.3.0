@@ -30,7 +30,6 @@ plone.api = 1.2.1
 
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0b1
 collective.lastmodifier = 1.1.2
-egov.contactdirectory = 1.6.2
 egov.myaccount = 1.5.3
 egov.workflows = 1.4.1
 ftw.avatar = 1.0.3
