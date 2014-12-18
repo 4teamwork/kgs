@@ -4,6 +4,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.1rc
 [versions]
 # http://kgs.4teamwork.ch/release/izug-organisation/5.4.0
 collective.autopermission = 1.0b2
+collective.geo.behaviour = 1.1
 collective.geo.contentlocations = 3.1
 collective.geo.geographer = 2.0
 collective.geo.kml = 3.2
@@ -25,6 +26,8 @@ plonetheme.onegov = 1.4.0
 seantis.dir.base = 1.7.7
 seantis.dir.contacts = 1.7.2
 seantis.dir.eventsportlet = 1.1
+seantis.plonetools = 0.15
+colour = 0.0.6
 xlrd = 0.9.3
 xlwt = 0.7.5
 
