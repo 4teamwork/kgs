@@ -8,8 +8,16 @@ seantis.people = 0.24
 seantis.translators = 0.3
 seantis.plonetools = 0.16
 plone.api = 1.3.2
-ftw.upgrade = 1.11.0
+plone.formwidget.datetime = 1.1
+isodate = 0.5.1
+collective.js.underscore = 1.5.2
 
+
+# ftw.upgrade
+ftw.upgrade = 1.11.0
+tarjan = 0.2.1
+inflection = 0.2.1
+argcomplete = 0.8.4
 
 zc.buildout =
 distribute =
