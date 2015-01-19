@@ -4,6 +4,8 @@
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0
 collective.quickupload = 1.6.6
+plone.formwidget.recaptcha = 1.0b3
+recaptcha-client = 1.0.6
 requests = 2.5.1
 
 # http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0rc1
