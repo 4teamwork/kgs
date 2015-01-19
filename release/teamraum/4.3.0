@@ -6,7 +6,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.3.0
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.3.0
-eGov = 4.3.5
+eGov = 4.3.6
 egov.contactdirectory = 1.6.3
 ftw.contentpage = 1.8.6
 ftw.footer = 1.0.2
