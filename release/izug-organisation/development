@@ -4,7 +4,7 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.4.1
 
 [versions]
 ftw.contentpage = 1.9.0
-ftw.book = 3.0.2
+ftw.book = 3.0.3
 # ftw.contentpage additional deps
 plone.formwidget.recaptcha = 1.0b3
 recaptcha-client = 1.0.6
