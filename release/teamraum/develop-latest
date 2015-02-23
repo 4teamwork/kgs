@@ -6,3 +6,5 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.3.0
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
+
+simplelayout.base = 4.0.4
