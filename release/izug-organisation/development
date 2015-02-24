@@ -1,12 +1,8 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.4.2
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.5.0
 
 
 [versions]
-
-ftw.shop = 2.0.5
-ftw.pdfgenerator = 1.3.5
-
 zc.buildout =
 distribute =
 setuptools =
