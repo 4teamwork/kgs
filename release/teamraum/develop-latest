@@ -8,5 +8,8 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.3.0
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
 ftw.builder = 1.6.0
 ftw.contentpage = 1.10.0
+ftw.mobilenavigation = 1.4.0
+ftw.slider = 2.1.4
+plonetheme.onegov = 1.5.0
 simplelayout.base = 4.0.4
 simplelayout.ui.base = 3.0.2
