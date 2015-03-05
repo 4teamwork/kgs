@@ -6,5 +6,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.3.0
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
-
+ftw.builder = 1.6.0
+ftw.contentpage = 1.10.0
 simplelayout.base = 4.0.4
+simplelayout.ui.base = 3.0.2
