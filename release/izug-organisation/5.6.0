@@ -4,7 +4,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.1rc
 [versions]
 # http://kgs.4teamwork.ch/release/izug-organisation/5.6.0
 ftw.contentpage = 1.10.1
-ftw.shop 2.0.6
+ftw.shop = 2.0.6
 izug.organisation = 5.6.0
 izug.refegovservice = 2.0.0
 
