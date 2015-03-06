@@ -1,5 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.5.0
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.6.0
 
 
 [versions]
