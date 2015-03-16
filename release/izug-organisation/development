@@ -10,3 +10,4 @@ setuptools =
 
 ftw.contentpage = 1.11.2
 simplelayout.ui.base = 3.0.3
+simplelayout.base = 4.0.5
