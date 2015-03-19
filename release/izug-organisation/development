@@ -12,3 +12,8 @@ ftw.contentpage = 1.11.2
 simplelayout.ui.base = 3.0.3
 simplelayout.base = 4.0.5
 ftw.lawgiver = 1.5.0
+
+# https://github.com/4teamwork/izug.organisation/pull/822
+ftw.publisher.sender = 2.2.2
+ftw.publisher.receiver = 2.0.4
+ftw.book = 3.1.0
