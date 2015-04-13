@@ -1,34 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-workspace/5.1.2
+extends = http://kgs.4teamwork.ch/release/izug-workspace/5.1.3
 
 
 [versions]
-XlsxWriter = 0.6.4
-cssselect = 0.9.1
-ftw.maintenanceserver = 1.0.2
-meld3 = 1.0.0
-setuptools = 15.0
-superlance = 0.11
-supervisor = 3.1.3
-zc.buildout = 2.3.1
-
-# https://github.com/4teamwork/ftw.bridge.client/pull/15
-ftw.bridge.client = 1.0.12
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10572
-ftw.dashboard.portlets.favourites = 3.3.0
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10568
-# https://github.com/4teamwork/izug.latex/pull/15
-# https://extranet.4teamwork.ch/support/zug/maintlog/10613
-# https://github.com/4teamwork/izug.latex/pull/16
-# https://github.com/4teamwork/izug.latex/pull/17
-izug.latex = 1.1.6
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10568
-# https://github.com/4teamwork/ftw.pdfgenerator/pull/38
-ftw.pdfgenerator = 1.3.7
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10570
-# https://github.com/4teamwork/ftw.workspace/pull/57
-ftw.workspace = 2.2.2
