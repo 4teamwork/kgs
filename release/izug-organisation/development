@@ -17,3 +17,6 @@ ftw.bridge.client = 1.0.12
 
 # https://extranet.4teamwork.ch/support/zug/maintlog/10647
 seantis.dir.base = 1.8.0
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10685
+seantis.dir.contacts = 1.8
