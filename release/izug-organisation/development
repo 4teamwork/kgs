@@ -11,7 +11,8 @@ setuptools =
 # https://github.com/4teamwork/ftw.bridge.client/pull/13
 # https://extranet.4teamwork.ch/support/zug/maintlog/10662
 # https://github.com/4teamwork/ftw.bridge.client/pull/14
-ftw.bridge.client = 1.0.11
+# https://github.com/4teamwork/ftw.bridge.client/pull/15
+ftw.bridge.client = 1.0.12
 
 
 # https://extranet.4teamwork.ch/support/zug/maintlog/10647
