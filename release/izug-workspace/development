@@ -3,3 +3,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.1.3
 
 
 [versions]
+ftw.upgrade = 1.14.4
