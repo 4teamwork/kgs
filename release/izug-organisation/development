@@ -20,3 +20,15 @@ seantis.dir.base = 1.8.0
 
 # https://extranet.4teamwork.ch/support/zug/maintlog/10685
 seantis.dir.contacts = 1.8
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10650
+# https://git.4teamwork.ch/izug/izug.refegovservice/merge_requests/4
+izug.refegovservice = 2.0.2
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10675
+# https://github.com/4teamwork/ftw.contentpage/pull/222
+ftw.contentpage = 1.11.3
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10590
+# https://github.com/OneGov/plonetheme.onegov/pull/170
+plonetheme.onegov = 1.5.2
