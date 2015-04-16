@@ -58,6 +58,7 @@ ftw.zopemaster = 1.0.0
 importlib = 1.0.2
 imsvdex = 1.0
 Mako = 1.0.0
+meld3 = 1.0.0
 mr.developer = 1.22
 MySQL-python = 1.2.3
 ooxml-docprops = 1.1.0
