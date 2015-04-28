@@ -13,7 +13,7 @@ PREFIX = '''# DO NOT MODIFY
 
 [buildout]
 extends = http://plonesource.org/sources.cfg
-github-cloneurl = ${buildout:github-ssh}
+github-private-cloneurl = ${buildout:github-ssh}
 '''
 
 
@@ -53,7 +53,7 @@ def write_sources(repos, output):
 
     for name in repos['github_private']:
         output['sources'][name] = \
-            'git ${buildout:github-cloneurl}' \
+            'git ${buildout:github-private-cloneurl}' \
             '${forks:%(name)s}/%(name)s.git' \
             ' pushurl=${buildout:github-pushurl}' \
             '${forks:%(name)s}/%(name)s.git' \
