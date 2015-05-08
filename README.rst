@@ -50,7 +50,3 @@ Configure apache.
 	       Allow from all
 	    </Directory>
 	</VirtualHost>
-
-.. image:: https://cruel-carlota.pagodabox.com/253f9a243120a727b1906b085a90c7a4
-   :alt: githalytics.com
-   :target: http://githalytics.com/4teamwork/kgs)
