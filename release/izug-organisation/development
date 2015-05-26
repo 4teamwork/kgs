@@ -1,15 +1,8 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.6.3
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.7.0
 
 
 [versions]
 zc.buildout =
 distribute =
 setuptools =
-
-collective.geo.behaviour = 1.2
-collective.geo.mapwidget = 2.2
-collective.geo.settings = 3.1
-collective.z3cform.colorpicker = 1.2
-collective.z3cform.mapwidget = 2.1
-ftw.slider = 2.2.0
