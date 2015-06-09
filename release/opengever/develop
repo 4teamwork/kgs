@@ -1,5 +1,4 @@
-# Known good set for opengever
-# The latest version can be found at http://kgs.4teamwork.ch/release/opengever/3.3
+# Known good set for opengever (development pinnings).
 
 [buildout]
 extends = http://dist.plone.org/release/4.3.2/versions.cfg
