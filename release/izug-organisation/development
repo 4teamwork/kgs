@@ -6,3 +6,5 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.7.0
 zc.buildout =
 distribute =
 setuptools =
+
+ftw.topics = 1.1.2
