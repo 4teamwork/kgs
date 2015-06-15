@@ -2,7 +2,7 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/bern/1.1.6
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/bern/1.1.8
+extends = http://kgs.4teamwork.ch/release/bern/1.1.9
 
 [versions]
 bern.web =
