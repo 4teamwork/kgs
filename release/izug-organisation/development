@@ -7,4 +7,4 @@ zc.buildout =
 distribute =
 setuptools =
 
-ftw.topics = 1.1.2
+ftw.topics = 1.1.3
