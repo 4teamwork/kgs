@@ -8,6 +8,12 @@ ruby = 2.1.5
 sablon = 0.0.14
 
 [versions]
+# Plone overrides
+plone.keyring = 3.0.0
+plone.protect = 3.0.1
+plone.recipe.zope2instance = 4.2.16
+
+# General pinnings
 alembic = 0.7.6
 apachelog = 1.1
 argcomplete = 0.8.9
@@ -98,11 +104,8 @@ Pillow = 2.6.1
 plone.api = 1.3.2
 plone.app.transmogrifier = 1.3
 plone.formwidget.autocomplete = 1.2.1-20150330
-plone.keyring = 3.0.0
 plone.principalsource = 1.0
-plone.protect = 3.0.1
 plone.recipe.precompiler = 0.6
-plone.recipe.zope2instance = 4.2.16
 plonegov.pdflatex = 1.5.1
 plonegov.recipe.pdflatex = 0.5
 plonetheme.teamraum = 3.3.0
