@@ -1,8 +1,8 @@
 # Known good set for bern
-# The latest version can be found at http://kgs.4teamwork.ch/release/bern/1.1.6
+# The latest version can be found at http://kgs.4teamwork.ch/release/bern/1.1.10
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/bern/1.1.9
+extends = http://kgs.4teamwork.ch/release/bern/1.1.10
 
 [versions]
 bern.web =
