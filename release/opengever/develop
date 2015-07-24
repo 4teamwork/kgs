@@ -16,7 +16,7 @@ plone.formwidget.namedfile = 1.0.11
 
 # General pinnings
 alembic = 0.7.6
-apachelog = 1.1
+apachelog = 1.0
 argcomplete = 0.8.9
 backports.ssl-match-hostname = 3.4.0.2
 BeautifulSoup = 3.2.1
