@@ -6,3 +6,4 @@ extends = http://kgs.4teamwork.ch/release/opengever/develop
 [versions]
 opengever.zug =
 opengever.zugconfig = 2.2
+cx-Oracle = 5.1.3
