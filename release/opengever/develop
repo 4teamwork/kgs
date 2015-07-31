@@ -125,6 +125,7 @@ setuptools = 7.0
 six = 1.8.0
 SQLAlchemy = 1.0.5
 SQLAlchemy-i18n = 1.0.1
+sqlalchemy-i18n = 1.0.1
 SQLAlchemy-Utils = 0.30.15
 subprocess32 = 3.2.6
 superlance = 0.7
