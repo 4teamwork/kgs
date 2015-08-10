@@ -12,7 +12,6 @@ sablon = 0.0.14
 plone.keyring = 3.0.0
 plone.protect = 3.0.1
 plone.recipe.zope2instance = 4.2.16
-plone.formwidget.namedfile = 1.0.11
 
 # General pinnings
 alembic = 0.7.6
