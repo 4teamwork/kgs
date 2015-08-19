@@ -5,7 +5,7 @@ extends = http://dist.plone.org/release/4.3.2/versions.cfg
 
 [ruby-versions]
 ruby = 2.1.5
-sablon = 0.0.14
+sablon = 0.0.16
 
 [versions]
 # Plone overrides
