@@ -8,3 +8,11 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.3.2
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
 
 ftw.upgrade = 1.14.6
+
+# Bumblebee support
+# https://github.com/4teamwork/eGov/pull/197/
+bumblebee.file = 9999
+bumblebee.workspace = 9999
+ftw.bumblebee = 9999
+ftw.file = 1.11.1
+# plonetheme.teamraum
