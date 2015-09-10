@@ -15,5 +15,5 @@ bumblebee.file = 1.0.0
 bumblebee.workspace = 1.0.0
 collective.taskqueue = 0.7.1
 ftw.bumblebee = 1.0.0
-ftw.file = 1.11.1
+ftw.file = 1.11.2
 plonetheme.teamraum = 3.5.0
