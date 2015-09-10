@@ -11,8 +11,8 @@ ftw.upgrade = 1.14.6
 
 # Bumblebee support
 # https://github.com/4teamwork/eGov/pull/197/
-bumblebee.file = 9999
-bumblebee.workspace = 9999
+bumblebee.file = 1.0.0
+bumblebee.workspace = 1.0.0
 collective.taskqueue = 0.7.1
 ftw.bumblebee = 1.0.0
 ftw.file = 1.11.1
