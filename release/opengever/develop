@@ -9,8 +9,10 @@ sablon = 0.0.18
 
 [versions]
 # Plone overrides
-plone.keyring = 3.0.0
-plone.protect = 3.0.1
+plone.keyring = 3.0.1
+plone.locking = 2.0.9
+plone.protect = 3.0.15
+plone4.csrffixes = 1.0.9
 plone.recipe.zope2instance = 4.2.16
 
 # General pinnings
