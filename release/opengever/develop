@@ -12,7 +12,7 @@ sablon = 0.0.18
 plone.keyring = 3.0.1
 plone.locking = 2.0.9
 plone.protect = 3.0.15
-plone4.csrffixes = 1.0.9
+plone4.csrffixes = 1.0.8
 plone.recipe.zope2instance = 4.2.16
 
 # General pinnings
