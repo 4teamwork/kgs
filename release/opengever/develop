@@ -133,6 +133,7 @@ tarjan = 0.2.3
 transmogrify.dexterity = 1.5.2
 transmogrify.sqlalchemy = 1.0.2
 transmogrify.sqlinserter = 1.1.1
+tzlocal = 1.2
 ua-parser = 0.3.6
 vs.genericsetup.ldap = 1.2
 wcwidth = 0.1.4
