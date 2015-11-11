@@ -5,3 +5,5 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.2.0
 [versions]
 #required by https://github.com/4teamwork/izug.onegov/pull/166
 ftw.lawgiver = 1.6.0
+
+ftw.mail = 2.3.7
