@@ -7,3 +7,4 @@ zc.buildout =
 distribute =
 setuptools =
 ftw.upgrade = 1.15.0
+ftw.tabbedview = 3.4.2
