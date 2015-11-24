@@ -1,0 +1,22 @@
+# Known good set for opengever-sg (development pinnings)
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/opengever/3.4.7
+
+
+[versions]
+opengever.sg = 1.2.0
+ftw.zopemaster = 1.1
+ftw.usermigration = 1.1
+
+netsight.windowsauthplugin = 2.0
+kerberos = 1.1.1
+
+zc.buildout = 1.7.1
+
+# Dependencies for netsight.windowsauthplugin:python-gssapi
+cffi = 0.9.2
+pyasn1 = 0.1.7
+pycparser = 2.10
+python-gssapi = 0.6.4
+six = 1.9.0
