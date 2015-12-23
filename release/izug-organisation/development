@@ -1,15 +1,13 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.7.2
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
 
 
 [versions]
+
+# Don't move this over to the release kgs entries.
+# This ensures we get the newest versions when we update ROT.
+# When updating GELB und BLAU we don't pin those packages so it takes the newest version from cache.
+# The newest version in the cache is the one we used to update ROT. Thus we know the buildout will (probably) succeed.
 zc.buildout =
 distribute =
 setuptools =
-ftw.upgrade = 1.15.0
-ftw.tabbedview = 3.4.2
-ftw.redirector = 1.0.0
-simplelayout.types.flowplayerblock = 1.1.0
-ftwbook.graphicblock = 2.2.3
-collective.quickupload = 1.7.0
-seantis.dir.eventsportlet = 1.2
