@@ -45,7 +45,7 @@ plonetheme.onegov = 1.6.2
 
 # http://kgs.4teamwork.ch/release/izug-organisation/5.6.4
 ftw.bridge.client = 1.0.12
-# ftw.contentpage = 1.11.3
+#ftw.contentpage = 1.11.3
 #izug.refegovservice = 2.0.2
 seantis.dir.base = 1.8.0
 seantis.dir.contacts = 1.8
