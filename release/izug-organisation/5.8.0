@@ -21,7 +21,7 @@ seantis.dir.eventsportlet = 1.2
 simplelayout.types.flowplayerblock = 1.1.0
 
 # http://kgs.4teamwork.ch/release/izug-organisation/5.7.2
-izug.organisation = 5.7.3
+#izug.organisation = 5.7.3
 #izug.refegovservice = 2.0.3
 #ftw.solr = 1.4.3
 
