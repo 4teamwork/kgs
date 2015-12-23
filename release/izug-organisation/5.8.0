@@ -3,6 +3,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.1rc
 
 [versions]
 # http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
+izug.organisation = 5.8.0
 collective.quickupload = 1.7.0
 egov.contactdirectory = 1.8.0
 ftw.colorbox = 1.2.3
