@@ -5,7 +5,3 @@ extends = http://kgs.4teamwork.ch/release/opengever/develop
 
 [versions]
 opengever.ai = 1.1.4
-
-# Pin up from opengever KGS (0.7.1) in hope to fix
-# "StatementError: Can't reconnect until invalid transaction is rolled back"
-zope.sqlalchemy = 0.7.6
