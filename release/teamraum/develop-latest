@@ -6,6 +6,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.4.6
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
+izug.ticketbox = 4.7.3
 
 # https://github.com/4teamwork/eGov/pull/193
 ftw.upgrade = 1.14.8
