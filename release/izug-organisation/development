@@ -4,6 +4,7 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
 
 [versions]
 plone.api = 1.4.11
+ftw.bridge.client = 1.0.13
 
 # Don't move this over to the release kgs entries.
 # This ensures we get the newest versions when we update ROT.
