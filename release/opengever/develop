@@ -17,7 +17,7 @@ plone.recipe.zope2instance = 4.2.16
 
 # sentry / raven pinnings
 contextlib2 = 0.5.1
-ftw.raven = 1.0.1
+ftw.raven = 1.1.1
 raven = 5.10.0
 yolk = 0.4.3
 
