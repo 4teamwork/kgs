@@ -2,12 +2,6 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/develop-latest
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum/4.4.6
+extends = http://kgs.4teamwork.ch/release/teamraum/4.4.7
 
 [versions]
-# http://kgs.4teamwork.ch/release/teamraum/develop-latest
-izug.ticketbox = 4.7.3
-
-# https://github.com/4teamwork/eGov/pull/193
-ftw.upgrade = 1.14.8
-ftw.billboard = 1.5.0
