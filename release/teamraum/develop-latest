@@ -6,6 +6,9 @@ extends = http://kgs.4teamwork.ch/release/teamraum/4.4.6
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
+ftw.bumblebee = 1.4.0
+bumblebee.workspace = 1.1.2
+bumblebee.file = 1.1.2
 izug.ticketbox = 4.7.3
 ftw.notifiaction.email = 2.0.10
 eGov = 4.4.1
