@@ -2,27 +2,7 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/develop-latest
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum/4.4.6
+extends = http://kgs.4teamwork.ch/release/teamraum/4.5.0
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
-ftw.bumblebee = 1.4.0
-bumblebee.workspace = 1.1.2
-bumblebee.file = 1.1.2
-izug.ticketbox = 4.7.3
-ftw.notifiaction.email = 2.0.10
-eGov = 4.4.1
-ftw.pdfgenerator = 1.3.8
-ftw.upgrade = 1.17.0
-ftw.contentpage = 1.11.7
-collective.geo.mapwidget = 2.3
-collective.geo.openlayers = 3.1
-collective.z3cform.colorpicker = 1.4
-collective.geo.settings = 3.1
-collective.geo.geographer = 2.0
-collective.geo.contentlocations = 3.1
-collective.geo.kml = 3.2
-geopy = 1.11.0
-
-# https://github.com/4teamwork/eGov/pull/193
-ftw.billboard = 1.5.0
