@@ -1,0 +1,183 @@
+# Known good set for teamraum version 4.5.0
+# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.5.0
+
+[buildout]
+extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.4
+
+[versions]
+# http://kgs.4teamwork.ch/release/teamraum/4.5.0
+bumblebee.file = 1.1.2
+bumblebee.workspace = 1.1.2
+collective.geo.contentlocations = 3.1
+collective.geo.geographer = 2.0
+collective.geo.kml = 3.2
+collective.geo.mapwidget = 2.3
+collective.geo.openlayers = 3.1
+collective.geo.settings = 3.1
+collective.z3cform.colorpicker = 1.4
+eGov = 4.5.0
+ftw.bumblebee = 1.4.0
+ftw.contentpage = 1.11.7
+ftw.notification.base = 1.2.7
+ftw.notification.email = 2.0.10
+ftw.permissionmanager = 2.4.0
+ftw.pdfgenerator = 1.3.8
+ftw.slider = 2.3.2
+ftw.upgrade = 1.17.0
+geopy = 1.11.0
+izug.ticketbox = 4.7.3
+
+# http://kgs.4teamwork.ch/release/teamraum/4.4.5
+ftw.billboard = 1.5.1
+
+# http://kgs.4teamwork.ch/release/teamraum/4.4
+ftw.blog = 1.8.0
+egov.contactdirectory = 1.7.1
+ftw.book = 3.2.0
+ftw.file = 1.11.2
+ftw.mail = 2.3.7
+ftw.usermanagement = 1.9.3
+ftw.workspace = 3.1.1
+plonetheme.teamraum = 3.5.0
+simplelayout.ui.base = 3.0.5
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.2
+ftw.calendarwidget = 1.1.11
+ftw.contentmenu = 2.4.0
+ftw.dashboard.dragndrop = 1.6.0
+ftw.dashboard.portlets.favourites = 3.4.0
+ftw.dashboard.portlets.postit = 1.4.0
+ftw.poodle = 1.5.0
+ftw.subsite = 1.4.2
+ftw.tabbedview = 3.4.2
+ftw.zipexport = 1.3.0
+ftw.mimetypes = 1.1.2
+egov.classification = 1.0.6
+egov.myaccount = 1.5.5
+ftw.avatar = 1.0.7
+ftw.footer = 1.0.3
+ftw.meeting = 1.6.2
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.1
+ftw.builder = 1.6.3
+ftw.calendar = 2.1.0
+ftw.dashboard.portlets.recentlymodified = 1.3.0
+ftw.mobilenavigation = 1.4.2
+plonetheme.onegov = 1.6.2
+simplelayout.base = 4.0.5
+ftw.testing = 1.8.1
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.0
+ftw.participation = 1.3.7
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.0rc1
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.0b2
+ftw.activity = 1.1.3
+ftw.geo = 1.3.1
+plone.api = 1.2.1
+
+
+# http://kgs.4teamwork.ch/release/teamraum/4.3.0b1
+collective.lastmodifier = 1.1.2
+egov.workflows = 1.4.1
+ftw.colorbox = 1.2.0
+ftw.contenttemplates = 1.2.1
+ftw.downloadtoken = 1.1.0
+ftw.journal = 1.2.8
+ftw.lawgiver = 1.4.0
+ftw.notification.email = 2.0.9
+ftw.profilehook = 1.0.0
+ftw.sendmail = 0.5
+ftw.table = 1.15.1
+ftw.tagging = 1.1.1
+ftw.task = 2.4.7
+simplelayout.types.common = 3.1.0
+simplelayout.types.flowplayerblock = 1.1.0
+simplelayout.ui.dragndrop = 3.1.0
+
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.7
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.6
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.5
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.4
+ftw.inflator = 1.3.2
+ftw.tooltip = 1.1.4
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.3
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.2
+collective.deletepermission = 1.1.3
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2.1
+
+# http://kgs.4teamwork.ch/release/teamraum/4.2
+
+# http://kgs.4teamwork.ch/release/teamraum/4.1.1
+simplelayout.types.news = 1.2.3
+
+# http://kgs.4teamwork.ch/release/teamraum/4.1
+
+# http://kgs.4teamwork.ch/release/teamraum/4.1rc3
+
+# http://kgs.4teamwork.ch/release/teamraum/4.1rc2
+collective.editmodeswitcher = 1.0.1
+collective.mtrsetup = 1.5
+ftw.bridge.client = 1.0.7
+ftw.globalstatusmessage = 1.2
+ftw.publisher.core = 2.3.2
+ftw.publisher.receiver = 2.0.1
+ftw.publisher.sender = 2.2.0
+ftw.shop = 1.3
+ftw.solr = 1.2.2
+ftw.statusmap = 1.1
+ftw.topics = 1.0
+ftwshop.adminpay = 1.0.2
+ftwshop.simplelayout = 1.0
+simplelayout.portlet.dropzone = 1.2.2
+
+# http://kgs.4teamwork.ch/release/teamraum/4.0
+ftwbook.graphicblock = 2.2.2
+
+# http://kgs.4teamwork.ch/release/teamraum/3.2
+egov.tabbedview = 1.1.10
+
+# http://kgs.4teamwork.ch/release/teamraum/3.2b1
+egov.izugtheme = 1.3
+
+# http://kgs.4teamwork.ch/release/teamraum/3.1
+egov.contentpage = 1.1
+egov.orgunit = 1.1
+
+# http://kgs.4teamwork.ch/release/teamraum/3.0.2.4
+
+# http://kgs.4teamwork.ch/release/teamraum/3.0.2.3
+
+# http://kgs.4teamwork.ch/release/teamraum/3.0.2.2
+
+# http://kgs.4teamwork.ch/release/teamraum/3.0.2.1
+
+# http://kgs.4teamwork.ch/release/teamraum/3.0.2
+collective.js.extjs = 1.2
+egov.jsonimport = 1.0a2
+egov.policy.base = 1.5.4
+egov.policy.my4egov = 1.0
+egov.policy.portal = 1.0b3
+egov.policy.teamraum = 1.2.4.2
+egov.policy.web = 1.0a1
+egov.procurement = 1.0b4
+egov.topics = 1.1c4
+egov.upgrade = 2.4.2c3
+ftw.dictstorage = 1.0
+ftw.favorite = 1.1.5
+ftw.keywordoverlay = 1.2.1
+ftw.portlet.clock = 1.0
+ftw.portlet.weather = 1.0
+ftw.portletview = 1.0a2
+ftw.quota = 1.0
+ftw.utilities = 0.6dev-r26088
+plonegov.pdflatex = 1.3
+plonegov.recipe.pdflatex = 0.5
