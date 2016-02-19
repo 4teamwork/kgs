@@ -86,7 +86,6 @@ ftw.contenttemplates = 1.2.1
 ftw.downloadtoken = 1.1.0
 ftw.journal = 1.2.8
 ftw.lawgiver = 1.4.0
-ftw.notification.email = 2.0.9
 ftw.profilehook = 1.0.0
 ftw.sendmail = 0.5
 ftw.table = 1.15.1
