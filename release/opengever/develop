@@ -1,7 +1,9 @@
 # Known good set for opengever (development pinnings).
 
 [buildout]
-extends = http://dist.plone.org/release/4.3.2/versions.cfg
+extends =
+    http://dist.plone.org/release/4.3.2/versions.cfg
+    https://raw.githubusercontent.com/4teamwork/ftw-buildouts/master/hotfixes/4.3.2.cfg
 
 [ruby-versions]
 ruby = 2.1.5
