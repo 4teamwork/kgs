@@ -11,3 +11,6 @@ collective.taskqueue = 0.8.0
 
 # ftw.file > 1.11.2 required by https://github.com/4teamwork/bumblebee.file/blob/master/setup.py#L49
 ftw.file = 1.11.4
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10873/
+ftw.tabbedview = 3.4.3
