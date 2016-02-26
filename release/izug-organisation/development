@@ -6,6 +6,10 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
 plone.api = 1.4.11
 ftw.bridge.client = 1.0.13
 
+# https://github.com/4teamwork/ftw.redirector/commit/2cdf8e1f281b0bcf9f19ee7b19803218f56e2a8d
+# personal request of Mr. Guyer
+ftw.redirector = 1.0.1
+
 # Don't move this over to the release kgs entries.
 # This ensures we get the newest versions when we update ROT.
 # When updating GELB und BLAU we don't pin those packages so it takes the newest version from cache.
