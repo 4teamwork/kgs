@@ -5,3 +5,11 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
 [versions]
 plone.api = 1.4.11
 ftw.bridge.client = 1.0.13
+
+# Don't move this over to the release kgs entries.
+# This ensures we get the newest versions when we update ROT.
+# When updating GELB und BLAU we don't pin those packages so it takes the newest version from cache.
+# The newest version in the cache is the one we used to update ROT. Thus we know the buildout will (probably) succeed.
+zc.buildout =
+distribute =
+setuptools =
