@@ -16,3 +16,4 @@ ftw.redirector = 1.0.1
 # The newest version in the cache is the one we used to update ROT. Thus we know the buildout will (probably) succeed.
 zc.buildout =
 distribute =
+setuptools =
