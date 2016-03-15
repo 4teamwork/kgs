@@ -21,7 +21,7 @@ plone.recipe.zope2instance = 4.2.16
 
 # sentry / raven pinnings
 contextlib2 = 0.5.1
-ftw.raven = 1.1.1
+ftw.raven = 1.1.2
 raven = 5.10.0
 yolk = 0.4.3
 
@@ -110,7 +110,7 @@ opengever.core = 4.7.2
 opengever.devtheme = 2.2
 opengever.docucomposer = 2.2.1
 opengever.mysqlconfig = 1.1.2
-opengever.ogds.models = 2.4.0
+opengever.ogds.models = 2.4.1
 opengever.pdfconverter = 1.4.1
 ordereddict = 1.1
 path.py = 7.3
@@ -122,7 +122,7 @@ plone.principalsource = 1.0
 plone.recipe.precompiler = 0.6
 plonegov.pdflatex = 1.5.1
 plonegov.recipe.pdflatex = 0.5
-plonetheme.teamraum = 3.5.5
+plonetheme.teamraum = 3.5.6
 premailer = 2.9.2
 Products.LDAPMultiPlugins = 1.14
 Products.LDAPUserFolder = 2.27
