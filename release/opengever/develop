@@ -12,6 +12,10 @@ ruby = 2.1.5
 sablon = 0.0.19
 
 [versions]
+# buildout / setuptools
+setuptools = 20.3
+zc.buildout = 2.5.0
+
 # Plone overrides
 plone.keyring = 3.0.1
 plone.locking = 2.0.9
@@ -136,7 +140,6 @@ pyquery = 1.2.9
 python-ldap = 2.4.19
 RelStorage = 1.6.0b3
 requests = 2.7.0
-setuptools = 7.0
 six = 1.8.0
 SQLAlchemy = 1.0.5
 SQLAlchemy-i18n = 1.0.1
@@ -158,5 +161,4 @@ xlwt = 1.0.0
 xmlbuilder = 1.0
 z3c.jbot = 0.7.1
 z3c.saconfig = 0.14
-zc.buildout = 2.2.5
 zope.sqlalchemy = 0.7.6
