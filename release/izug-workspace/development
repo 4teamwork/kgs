@@ -3,6 +3,8 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.3.2
 
 
 [versions]
+izug.onegov = 2.4.0
+
 # Bumblebee requirements (see https://github.com/4teamwork/izug.onegov/pull/176)
 # https://extranet.4teamwork.ch/support/zug/maintlog/10806/
 ftw.bumblebee = 1.5.0
