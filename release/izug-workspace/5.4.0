@@ -10,6 +10,8 @@ ftw.tabbedview = 3.4.3
 ftw.book = 3.4.1
 ftw.pdfgenerator = 1.4.1
 plonetheme.onegov = 1.6.3
+ftw.tika = 2.0.1
+zc.beforestorage = 0.5.1
 
 # http://kgs.4teamwork.ch/release/izug-workspace/5.3.2
 #izug.onegov = 2.3.2
