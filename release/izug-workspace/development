@@ -3,22 +3,3 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.3.2
 
 
 [versions]
-izug.onegov = 2.4.0
-
-# Bumblebee requirements (see https://github.com/4teamwork/izug.onegov/pull/176)
-# https://extranet.4teamwork.ch/support/zug/maintlog/10806/
-ftw.bumblebee = 1.5.0
-bumblebee.workspace = 1.1.2
-bumblebee.file = 1.1.2
-collective.taskqueue = 0.8.0
-
-# ftw.file > 1.11.2 required by https://github.com/4teamwork/bumblebee.file/blob/master/setup.py#L49
-ftw.file = 1.11.4
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10873/
-ftw.tabbedview = 3.4.3
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10892
-ftw.book = 3.4.1
-ftw.pdfgenerator = 1.4.1
-plonetheme.onegov = 1.6.3
