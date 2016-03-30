@@ -1,6 +1,6 @@
 [versions]
 # http://kgs.4teamwork.ch/release/izug-workspace/5.4.0
-izug.onegov = 2.4.0
+izug.onegov = 2.4.1
 ftw.bumblebee = 1.5.0
 bumblebee.workspace = 1.2.0
 bumblebee.file = 1.2.0
