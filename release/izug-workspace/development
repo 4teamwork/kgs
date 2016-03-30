@@ -1,5 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-workspace/5.3.2
+extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.0
 
 
 [versions]
