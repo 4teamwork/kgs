@@ -17,6 +17,7 @@ ftw.publisher.core = 2.7.0
 # https://extranet.4teamwork.ch/support/zug/maintlog/10891
 ftw.book = 3.4.1
 ftw.pdfgenerator = 1.4.1
+izug.latex = 1.1.7
 # https://github.com/OneGov/plonetheme.onegov/commit/e1a2b01d9973e06c62a4a12b49fe1d44ae92a6a4
 plonetheme.onegov = 1.6.3
 
