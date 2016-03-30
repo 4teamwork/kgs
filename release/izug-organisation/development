@@ -1,50 +1,8 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.0
+extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.1
 
 
 [versions]
-plone.api = 1.4.11
-ftw.bridge.client = 1.0.13
-
-# https://github.com/4teamwork/ftw.redirector/commit/2cdf8e1f281b0bcf9f19ee7b19803218f56e2a8d
-# personal request of Mr. Guyer
-ftw.redirector = 1.0.1
-
-# https://github.com/4teamwork/ftw.publisher.core/pull/31
-# https://extranet.4teamwork.ch/support/zug/maintlog/10868
-ftw.publisher.core = 2.7.0
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10891
-ftw.book = 3.4.1
-ftw.pdfgenerator = 1.4.1
-izug.latex = 1.1.7
-# https://github.com/OneGov/plonetheme.onegov/commit/e1a2b01d9973e06c62a4a12b49fe1d44ae92a6a4
-plonetheme.onegov = 1.6.3
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10762/
-# https://github.com/4teamwork/ftw.permissionmanager/pull/36
-ftw.permissionmanager = 2.4.1
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10841
-# https://github.com/4teamwork/ftw.contentpage/pull/234
-ftw.contentpage = 1.12.0
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10841
-# https://github.com/4teamwork/ftw.geo/pull/16
-ftw.geo = 1.3.3
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10859
-egov.contactdirectory = 1.9.0
-
-# https://extranet.4teamwork.ch/support/zug/maintlog/10839
-ftw.shop = 2.0.8
-
-
-
-
-
-
-
 
 
 
