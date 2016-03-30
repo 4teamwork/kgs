@@ -15,3 +15,8 @@ ftw.file = 1.11.4
 
 # https://extranet.4teamwork.ch/support/zug/maintlog/10873/
 ftw.tabbedview = 3.4.3
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10892
+ftw.book = 3.4.1
+ftw.pdfgenerator = 1.4.1
+plonetheme.onegov = 1.6.3
