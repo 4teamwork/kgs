@@ -3,7 +3,7 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.8.1
 
 
 [versions]
-
+Products.TinyMCE = 1.3.17
 
 
 # Don't move this over to the release kgs entries.
