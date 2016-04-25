@@ -102,6 +102,7 @@ i18ndude = 4.0.1
 importlib = 1.0.2
 imsvdex = 1.0
 inflection = 0.3.1
+jdcal = 1.2
 Mako = 1.0.1
 MarkupSafe = 0.23
 meld3 = 1.0.0
