@@ -52,6 +52,7 @@ collective.recipe.filestorage = 0.6
 collective.recipe.scriptgen = 0.2
 collective.recipe.shelloutput = 0.1
 collective.recipe.supervisor = 0.17
+collective.taskqueue = 0.8.0
 collective.transmogrifier = 1.5
 collective.usernamelogger = 1.4
 collective.vdexvocabulary = 0.2.1
