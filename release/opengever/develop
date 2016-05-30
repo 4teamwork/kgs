@@ -147,6 +147,7 @@ python-ldap = 2.4.19
 RelStorage = 1.6.0b3
 requests = 2.7.0
 six = 1.8.0
+souper = 1.0.2
 SQLAlchemy = 1.0.5
 SQLAlchemy-i18n = 1.0.1
 sqlalchemy-i18n = 1.0.1
