@@ -8,3 +8,6 @@ Products.MimetypesRegistry = 2.0.6
 
 # https://extranet.4teamwork.ch/support/zug/maintlog/10946
 ftw.permissionmanager = 2.4.1
+
+# https://extranet.4teamwork.ch/support/zug/maintlog/10918/
+bumblebee.workspace = 1.3.0
