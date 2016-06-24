@@ -1,4 +1,5 @@
 [buildout]
-extends = http://kgs.4teamwork.ch/release/opengever-phvs/3.3.3
+extends = http://kgs.4teamwork.ch/release/opengever/develop
 
 [versions]
+opengever.phvs = 1.3.1
