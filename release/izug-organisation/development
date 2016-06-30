@@ -9,6 +9,9 @@ Products.MimetypesRegistry = 2.0.6
 # https://extranet.4teamwork.ch/support/zug/maintlog/10946
 ftw.permissionmanager = 2.4.1
 
+# https://extranet.4teamwork.ch/support/zug/maintlog/10958/
+plone.app.content = 2.1.4
+
 
 # Don't move this over to the release kgs entries.
 # This ensures we get the newest versions when we update ROT.
