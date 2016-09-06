@@ -3,7 +3,7 @@ extends = http://kgs.4teamwork.ch/release/izug-organisation/5.9.0
 
 
 [versions]
-collective.geo.zugmap = 1.0.3
+collective.geo.zugmap = 1.0.4
 
 # Don't move this over to the release kgs entries.
 # This ensures we get the newest versions when we update ROT.
