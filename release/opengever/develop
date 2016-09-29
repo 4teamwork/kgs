@@ -105,6 +105,7 @@ i18ndude = 4.0.1
 importlib = 1.0.2
 imsvdex = 1.0
 inflection = 0.3.1
+iso8601 = 0.1.11
 jdcal = 1.2
 lxml = 3.3.1.0
 Mako = 1.0.1
