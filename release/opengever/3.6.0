@@ -10,6 +10,7 @@ extends =
 [ruby-versions]
 ruby = 2.1.5
 sablon = 0.0.19
+nokogiri = 1.6.8
 
 [versions]
 # Plone overrides
