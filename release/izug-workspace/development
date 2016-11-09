@@ -3,4 +3,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.1
 
 
 [versions]
-
+izug.ticketbox = 4.8.1
