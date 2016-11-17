@@ -2,10 +2,7 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/develop-latest
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum/4.5.0
+extends = http://kgs.4teamwork.ch/release/teamraum/4.5.1
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/develop-latest
-ftw.bumblebee = 3.0.2
-bumblebee.workspace = 1.4.2
-bumblebee.file = 1.4.1
