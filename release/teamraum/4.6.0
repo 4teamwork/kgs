@@ -2,7 +2,7 @@
 # The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.6.0
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.4
+extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.6.0
 
 [versions]
 # http://kgs.4teamwork.ch/release/teamraum/4.5.1
