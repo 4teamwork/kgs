@@ -27,6 +27,7 @@ ftw.slider = 2.3.2
 ftw.upgrade = 1.17.0
 geopy = 1.11.0
 izug.ticketbox = 4.7.3
+ftw.recipe.deployment = 1.2.0
 
 # http://kgs.4teamwork.ch/release/teamraum/4.4.5
 ftw.billboard = 1.5.1
