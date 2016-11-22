@@ -5,3 +5,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.1
 [versions]
 izug.ticketbox = 4.8.1
 ftw.task = 3.0.0
+ftw.workspace = 3.1.3
