@@ -1,15 +1,17 @@
-# Known good set for teamraum version 4.6.0
-# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.6.0
+# Known good set for teamraum version 4.7.0
+# The latest version can be found at http://kgs.4teamwork.ch/release/teamraum/4.7.0
 
 [buildout]
-extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.6.0
+extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.7.0
 
 [versions]
+# http://kgs.4teamwork.ch/release/teamraum/4.7.0
+eGov = 4.7.0
+
 # http://kgs.4teamwork.ch/release/teamraum/4.6.0
 ftw.bumblebee = 3.0.4
 bumblebee.workspace = 1.4.2
 bumblebee.file = 1.4.2
-eGov = 4.6.0
 
 # http://kgs.4teamwork.ch/release/teamraum/4.5.0
 collective.geo.contentlocations = 3.1
