@@ -21,8 +21,9 @@ zc.buildout = 2.5.0
 plone.keyring = 3.0.1
 plone.locking = 2.0.9
 plone.protect = 3.0.17
-plone4.csrffixes = 1.0.8
 plone.recipe.zope2instance = 4.2.16
+plone4.csrffixes = 1.0.8
+Products.ZCatalog = 3.0.2
 
 # sentry / raven pinnings
 contextlib2 = 0.5.1
