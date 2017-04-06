@@ -5,3 +5,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.2
 [versions]
 ftw.tabbedview = 3.6.0
 ftw.notification.email = 2.0.10
+ftw.book = 3.5.2
