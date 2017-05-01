@@ -3,3 +3,4 @@ extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.3
 
 
 [versions]
+izug.latex = 1.1.9
