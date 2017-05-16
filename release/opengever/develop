@@ -186,8 +186,3 @@ xmlbuilder = 1.0
 z3c.jbot = 0.7.1
 z3c.saconfig = 0.14
 zope.sqlalchemy = 0.7.6
-
-# Downgrade testbrowser because tests are failing due to some bugs
-# in ftw.testbrowser 1.21.0. This pinning should be removed as soon
-# as the ftw.testbrowser is fixed.
-ftw.testbrowser = 1.20.0
