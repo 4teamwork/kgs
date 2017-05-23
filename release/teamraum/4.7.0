@@ -9,7 +9,7 @@ extends = http://kgs.4teamwork.ch/release/teamraum-3rdparty/4.6.0
 eGov = 4.7.0
 
 # http://kgs.4teamwork.ch/release/teamraum/4.6.0
-ftw.bumblebee = 3.0.4
+ftw.bumblebee = 3.3.2
 bumblebee.workspace = 1.4.2
 bumblebee.file = 1.4.2
 
