@@ -16,6 +16,7 @@ setuptools = 33.1.1
 zc.buildout = 2.5.0
 
 # Plone overrides
+plone.app.discussion = 2.2.12
 plone.keyring = 3.0.1
 plone.locking = 2.0.9
 plone.protect = 3.0.17
