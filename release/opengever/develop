@@ -16,13 +16,7 @@ setuptools = 33.1.1
 zc.buildout = 2.5.0
 
 # Plone overrides
-plone.app.dexterity = 2.0.10
-plone.app.discussion = 2.2.14
-plone.keyring = 3.0.1
-plone.locking = 2.0.9
-plone.protect = 3.0.17
-plone.recipe.zope2instance = 4.2.16
-plone4.csrffixes = 1.0.8
+plone.protect = 3.0.19
 Products.ZCatalog = 3.0.2
 
 # sentry / raven pinnings
