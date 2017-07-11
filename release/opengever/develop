@@ -1,4 +1,20 @@
 [buildout]
+
+#
+#             ███████╗████████╗ ██████╗ ██████╗
+#             ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
+#             ███████╗   ██║   ██║   ██║██████╔╝
+#             ╚════██║   ██║   ██║   ██║██╔═══╝
+#             ███████║   ██║   ╚██████╔╝██║
+#             ╚══════╝   ╚═╝    ╚═════╝ ╚═╝
+#
+#              DO NOT CHANGE THIS FILE ANYMORE
+#                THE DEVELOP VERSIONS ARE IN
+#               opengever.core's versions.cfg
+#
+#  https://raw.githubusercontent.com/4teamwork/opengever.core/master/versions.cfg
+
+
 extends =
 # Hotfixes must be extended BEFORE the Plone KGS, otherwise you will
 # reset the "instance-eggs" and I have no idea why.
