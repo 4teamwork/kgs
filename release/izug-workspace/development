@@ -1,5 +1,2 @@
 [buildout]
 extends = http://kgs.4teamwork.ch/release/izug-workspace/5.4.3
-
-[versions]
-ftw.calendarwidget = 1.1.9
