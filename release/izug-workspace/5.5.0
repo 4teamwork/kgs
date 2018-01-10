@@ -1,6 +1,6 @@
 [versions]
 # http://kgs.4teamwork.ch/release/izug-workspace/5.5.0
-izug.onegov = 2.5.0
+izug.onegov = 2.5.1
 
 # http://kgs.4teamwork.ch/release/izug-workspace/5.4.4
 #izug.onegov = 2.4.7
