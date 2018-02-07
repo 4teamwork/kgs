@@ -2,3 +2,4 @@
 extends = http://kgs.4teamwork.ch/release/izug-workspace/5.5.0
 
 [versions]
+bumblebee.workspace = 1.3.2
