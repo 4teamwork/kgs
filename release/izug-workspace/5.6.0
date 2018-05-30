@@ -8,10 +8,12 @@ ftw.book = 3.5.3
 ftw.task = 3.0.1
 # https://extranet.4teamwork.ch/support/zug/maintlog/11370
 ftw.raven = 1.2.0
-# https://extranet.4teamwork.ch/support/zug/maintlog/11370
+# Dependency of "ftw.raven".
 yolk = 0.4.3
-# https://extranet.4teamwork.ch/support/zug/maintlog/11370
+# Dependency of "ftw.raven".
 raven = 5.27.1
+# Dependency of "raven".
+contextlib2 = 0.5.5
 
 # http://kgs.4teamwork.ch/release/izug-workspace/5.5.0
 #izug.onegov = 2.5.1
