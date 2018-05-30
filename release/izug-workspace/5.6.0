@@ -11,7 +11,7 @@ ftw.raven = 1.2.0
 # https://extranet.4teamwork.ch/support/zug/maintlog/11370
 yolk = 0.4.3
 # https://extranet.4teamwork.ch/support/zug/maintlog/11370
-raven = 6.5.0
+raven = 5.27.1
 
 # http://kgs.4teamwork.ch/release/izug-workspace/5.5.0
 #izug.onegov = 2.5.1
